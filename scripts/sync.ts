@@ -27,8 +27,8 @@ const run = async () => {
 
     fs.writeFileSync(
       path.join(__dirname, "../src/chains.ts"),
-      `
-// This file is auto-generated. Do not edit manually.
+      `// This file is auto-generated. Do not edit manually.
+
 const chains = ${JSON.stringify(newChains, null, 2)} as const
 
 export type ChainId = typeof chains[number]['id']

@@ -8,12 +8,15 @@ import { ChainId, ChainKey, chainsById, chainsByKey } from "./chains";
 
 type Optional<T, K extends keyof T> = Partial<Pick<T, K>> & Omit<T, K>;
 
-export interface ChainListProviderOptions extends DynamicProviderOptions {}
+export interface ChainListProviderOptions
+  extends Optional<DynamicProviderOptions, "strategy"> {
+  rpcs?: string[];
+}
 
 export class ChainListProvider extends DynamicProvider {
   constructor(
     chain: ChainId | ChainKey,
-    options: Optional<ChainListProviderOptions, "strategy"> = {}
+    options: ChainListProviderOptions = {}
   ) {
     const info =
       typeof chain === "string" ? chainsByKey[chain] : chainsById[chain];
@@ -25,7 +28,7 @@ export class ChainListProvider extends DynamicProvider {
     const network = new Network(info.name, info.id);
 
     super(
-      info.rpcs,
+      [...(options.rpcs || []), ...info.rpcs],
       {
         staticNetwork: network,
         strategy: new FallbackStrategy(),
@@ -33,5 +36,13 @@ export class ChainListProvider extends DynamicProvider {
       },
       network
     );
+  }
+
+  static fromId(chainId: ChainId, options: ChainListProviderOptions = {}) {
+    return new ChainListProvider(chainId, options);
+  }
+
+  static fromKey(chainKey: ChainKey, options: ChainListProviderOptions = {}) {
+    return new ChainListProvider(chainKey, options);
   }
 }
