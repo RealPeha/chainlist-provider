@@ -1,0 +1,50 @@
+{
+  "name": "chainlist-provider",
+  "version": "1.0.11",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "files": [
+    "dist/*"
+  ],
+  "exports": {
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    },
+    "import": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "sync": "tsx ./scripts/sync.ts",
+    "build": "pkgroll"
+  },
+  "keywords": [],
+  "author": "RealPeha",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealPeha/chainlist-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RealPeha/chainlist-provider/issues"
+  },
+  "homepage": "https://github.com/RealPeha/chainlist-provider#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "pkgroll": "^2.12.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ethers": "^6.13.7",
+    "ethers-dynamic-provider": "^1.0.4",
+    "ethers-multicall-provider": "^6.5.0",
+    "tsx": "^4.19.4"
+  }
+}
