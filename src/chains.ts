@@ -1,5 +1,5 @@
-
 // This file is auto-generated. Do not edit manually.
+
 const chains = [
   {
     "id": 1,
