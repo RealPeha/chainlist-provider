@@ -36,15 +36,20 @@
   "publishConfig": {
     "access": "public"
   },
+  "peerDependencies": {
+    "ethers": ">6.0.0",
+    "ethers-dynamic-provider": ">1.0.0",
+    "ethers-multicall-provider": ">6.0.0"
+  },
   "devDependencies": {
     "@types/node": "^22.14.1",
+    "ethers": "^6.13.7",
+    "ethers-dynamic-provider": "^1.0.4",
+    "ethers-multicall-provider": "^6.5.0",
     "pkgroll": "^2.12.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "ethers": "^6.13.7",
-    "ethers-dynamic-provider": "^1.0.4",
-    "ethers-multicall-provider": "^6.5.0",
     "tsx": "^4.19.4"
   }
 }
