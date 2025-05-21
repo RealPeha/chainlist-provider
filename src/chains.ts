@@ -315,6 +315,19 @@ const chains = [
     ]
   },
   {
+    "id": 130,
+    "key": "unichain",
+    "name": "Unichain",
+    "rpcs": [
+      "https://mainnet.unichain.org",
+      "https://unichain.api.onfinality.io/public",
+      "https://unichain-rpc.publicnode.com",
+      "https://unichain.drpc.org",
+      "https://0xrpc.io/uni",
+      "https://rpc.therpc.io/unichain"
+    ]
+  },
+  {
     "id": 1329,
     "key": "sei",
     "name": "Sei Network",
@@ -340,19 +353,6 @@ const chains = [
       "https://rpc.nebkas.ro",
       "https://endpoints.omniatech.io/v1/cronos/mainnet/public",
       "https://rpc.owlracle.info/cro/70d38ce1826c4a60bb2a8e05a6c8b20f"
-    ]
-  },
-  {
-    "id": 130,
-    "key": "unichain",
-    "name": "Unichain",
-    "rpcs": [
-      "https://mainnet.unichain.org",
-      "https://unichain.api.onfinality.io/public",
-      "https://unichain-rpc.publicnode.com",
-      "https://unichain.drpc.org",
-      "https://0xrpc.io/uni",
-      "https://rpc.therpc.io/unichain"
     ]
   },
   {
@@ -701,6 +701,15 @@ const chains = [
     ]
   },
   {
+    "id": 1923,
+    "key": "swellchain",
+    "name": "Swellchain",
+    "rpcs": [
+      "https://rpc.ankr.com/swell",
+      "https://swell-mainnet.alt.technology"
+    ]
+  },
+  {
     "id": 222222,
     "key": "hdx",
     "name": "Hydration",
@@ -724,15 +733,6 @@ const chains = [
     "name": "Etherlink Mainnet",
     "rpcs": [
       "https://node.mainnet.etherlink.com"
-    ]
-  },
-  {
-    "id": 1923,
-    "key": "swellchain",
-    "name": "Swellchain",
-    "rpcs": [
-      "https://rpc.ankr.com/swell",
-      "https://swell-mainnet.alt.technology"
     ]
   },
   {
@@ -1156,6 +1156,25 @@ const chains = [
     ]
   },
   {
+    "id": 1285,
+    "key": "mriver",
+    "name": "Moonriver",
+    "rpcs": [
+      "https://rpc.api.moonriver.moonbeam.network",
+      "https://moonriver.api.onfinality.io/public",
+      "https://moonriver.unitedbloc.com:2000",
+      "https://moonriver.public.blastapi.io",
+      "https://moonriver-rpc.dwellir.com",
+      "https://moonriver-rpc.publicnode.com",
+      "https://moonriver.public.curie.radiumblock.co/http",
+      "https://moonriver.public.curie.radiumblock.co/ws",
+      "https://moonriver.drpc.org",
+      "https://node.histori.xyz/moonriver-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
+      "https://rpc.owlracle.info/movr/70d38ce1826c4a60bb2a8e05a6c8b20f",
+      "https://moonriver.unitedbloc.com"
+    ]
+  },
+  {
     "id": 2000,
     "key": "dc",
     "name": "Dogechain Mainnet",
@@ -1195,25 +1214,6 @@ const chains = [
     "rpcs": [
       "https://build.onbeam.com/rpc",
       "https://subnets.avax.network/beam/mainnet/rpc"
-    ]
-  },
-  {
-    "id": 1285,
-    "key": "mriver",
-    "name": "Moonriver",
-    "rpcs": [
-      "https://rpc.api.moonriver.moonbeam.network",
-      "https://moonriver.api.onfinality.io/public",
-      "https://moonriver.unitedbloc.com:2000",
-      "https://moonriver.public.blastapi.io",
-      "https://moonriver-rpc.dwellir.com",
-      "https://moonriver-rpc.publicnode.com",
-      "https://moonriver.public.curie.radiumblock.co/http",
-      "https://moonriver.public.curie.radiumblock.co/ws",
-      "https://moonriver.drpc.org",
-      "https://node.histori.xyz/moonriver-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
-      "https://rpc.owlracle.info/movr/70d38ce1826c4a60bb2a8e05a6c8b20f",
-      "https://moonriver.unitedbloc.com"
     ]
   },
   {
@@ -1303,6 +1303,14 @@ const chains = [
     ]
   },
   {
+    "id": 1231,
+    "key": "UtronMainnet",
+    "name": "Ultron Mainnet",
+    "rpcs": [
+      "https://ultron-rpc.net"
+    ]
+  },
+  {
     "id": 82,
     "key": "Meter",
     "name": "Meter Mainnet",
@@ -1310,14 +1318,6 @@ const chains = [
       "https://rpc.meter.io",
       "https://rpc-meter.jellypool.xyz",
       "https://meter.blockpi.network/v1/rpc/public"
-    ]
-  },
-  {
-    "id": 1231,
-    "key": "UtronMainnet",
-    "name": "Ultron Mainnet",
-    "rpcs": [
-      "https://ultron-rpc.net"
     ]
   },
   {
@@ -1391,6 +1391,20 @@ const chains = [
     ]
   },
   {
+    "id": 10000,
+    "key": "smartbch",
+    "name": "Smart Bitcoin Cash",
+    "rpcs": [
+      "https://smartbch.fountainhead.cash/mainnet",
+      "https://global.uat.cash",
+      "https://rpc.uatvo.com",
+      "https://bch-mainnet.gateway.tatum.io",
+      "https://smartbch.greyh.at",
+      "https://rpc-mainnet.smartbch.org",
+      "https://smartbch.devops.cash/mainnet"
+    ]
+  },
+  {
     "id": 777777,
     "key": "winr",
     "name": "Winr Protocol Mainnet",
@@ -1421,14 +1435,6 @@ const chains = [
     ]
   },
   {
-    "id": 17777,
-    "key": "eos",
-    "name": "EOS EVM Network",
-    "rpcs": [
-      "https://api.evm.eosnetwork.com"
-    ]
-  },
-  {
     "id": 42170,
     "key": "arb-nova",
     "name": "Arbitrum Nova",
@@ -1447,17 +1453,11 @@ const chains = [
     ]
   },
   {
-    "id": 10000,
-    "key": "smartbch",
-    "name": "Smart Bitcoin Cash",
+    "id": 17777,
+    "key": "eos",
+    "name": "EOS EVM Network",
     "rpcs": [
-      "https://smartbch.fountainhead.cash/mainnet",
-      "https://global.uat.cash",
-      "https://rpc.uatvo.com",
-      "https://bch-mainnet.gateway.tatum.io",
-      "https://smartbch.greyh.at",
-      "https://rpc-mainnet.smartbch.org",
-      "https://smartbch.devops.cash/mainnet"
+      "https://api.evm.eosnetwork.com"
     ]
   },
   {
@@ -1667,19 +1667,19 @@ const chains = [
     ]
   },
   {
-    "id": 1234,
-    "key": "step",
-    "name": "Step Network",
-    "rpcs": [
-      "https://rpc.step.network"
-    ]
-  },
-  {
     "id": 15551,
     "key": "loop",
     "name": "LoopNetwork Mainnet",
     "rpcs": [
       "https://api.mainnetloop.com"
+    ]
+  },
+  {
+    "id": 1234,
+    "key": "step",
+    "name": "Step Network",
+    "rpcs": [
+      "https://rpc.step.network"
     ]
   },
   {
@@ -1801,19 +1801,19 @@ const chains = [
     ]
   },
   {
-    "id": 11820,
-    "key": "artela-mainnet",
-    "name": "Artela Mainnet",
-    "rpcs": [
-      "https://node-euro.artela.network/rpc"
-    ]
-  },
-  {
     "id": 60,
     "key": "go",
     "name": "GoChain",
     "rpcs": [
       "https://rpc.gochain.io"
+    ]
+  },
+  {
+    "id": 11820,
+    "key": "artela-mainnet",
+    "name": "Artela Mainnet",
+    "rpcs": [
+      "https://node-euro.artela.network/rpc"
     ]
   },
   {
@@ -1881,6 +1881,17 @@ const chains = [
     "name": "Xphere Mainnet",
     "rpcs": [
       "https://en-bkk.x-phere.com"
+    ]
+  },
+  {
+    "id": 128,
+    "key": "heco",
+    "name": "Huobi ECO Chain Mainnet",
+    "rpcs": [
+      "https://http-mainnet.hecochain.com",
+      "https://http-mainnet-node.huobichain.com",
+      "https://hecoapi.terminet.io/rpc",
+      "https://heco.drpc.org"
     ]
   },
   {
@@ -2741,17 +2752,6 @@ const chains = [
     "key": "feth",
     "name": "Factory 127 Mainnet",
     "rpcs": []
-  },
-  {
-    "id": 128,
-    "key": "heco",
-    "name": "Huobi ECO Chain Mainnet",
-    "rpcs": [
-      "https://http-mainnet.hecochain.com",
-      "https://http-mainnet-node.huobichain.com",
-      "https://hecoapi.terminet.io/rpc",
-      "https://heco.drpc.org"
-    ]
   },
   {
     "id": 129,
