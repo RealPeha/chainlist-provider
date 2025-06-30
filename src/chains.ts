@@ -19634,6 +19634,15 @@ const chains = [
     ]
   },
   {
+    "id": 1439,
+    "key": "injective-testnet",
+    "name": "Injective Testnet",
+    "rpcs": [
+      "https://testnet.sentry.chain.json-rpc.injective.network",
+      "https://injectiveevm-testnet-rpc.polkachu.com"
+    ]
+  },
+  {
     "id": 1990,
     "key": "QIE",
     "name": "QIE Mainnet",
@@ -19698,6 +19707,14 @@ const chains = [
     "name": "CROSS Mainnet",
     "rpcs": [
       "https://mainnet.crosstoken.io:22001"
+    ]
+  },
+  {
+    "id": 97741,
+    "key": "pepu",
+    "name": "PEPE Unchained",
+    "rpcs": [
+      "https://rpc-pepu-v2-mainnet-0.t.conduit.xyz"
     ]
   },
   {
