@@ -6,6 +6,7 @@ const chains = [
     "key": "eth",
     "name": "Ethereum Mainnet",
     "rpcs": [
+      "https://xrpc.cl/eth",
       "https://rpc.hostdefi.com/api/rpc/ethereum",
       "https://lb.routeme.sh/rpc/evm/1",
       "https://one.valve.city/rpc/vk_demo/evm/1",
@@ -60,7 +61,6 @@ const chains = [
       "https://rpc.mevblocker.io/noreverts",
       "https://rpc.mevblocker.io/fullprivacy",
       "https://api.securerpc.com/v1",
-      "https://xrpc.cl/eth",
       "https://1.rpc.thirdweb.com"
     ]
   },
@@ -69,13 +69,13 @@ const chains = [
     "key": "base",
     "name": "Base",
     "rpcs": [
+      "https://xrpc.cl/base",
       "https://rpc.hostdefi.com/api/rpc/base",
       "https://lb.routeme.sh/rpc/evm/8453",
       "https://rpc.nodeflare.app/base/public",
       "https://mainnet.base.org",
       "https://developer-access-mainnet.base.org",
       "https://li-fi-base.intustechno.workers.dev/rpc",
-      "https://base-mainnet.diamondswap.org/rpc",
       "https://base.public.blockpi.network/v1/rpc/public",
       "https://public.1rpc.io/base",
       "https://base-public.nodies.app",
@@ -87,28 +87,20 @@ const chains = [
       "https://base-rpc.publicnode.com",
       "https://base.drpc.org",
       "https://base.api.onfinality.io/public",
-      "https://public.stackup.sh/api/v1/node/base-mainnet",
       "https://base-mainnet.gateway.tatum.io",
       "https://api.zan.top/base-mainnet",
-      "https://endpoints.omniatech.io/v1/base/mainnet/public",
-      "https://base.lava.build",
       "https://rpc.numa.network/base",
       "https://rpc.owlracle.info/base/70d38ce1826c4a60bb2a8e05a6c8b20f",
-      "https://base.therpc.io",
-      "https://rpc.poolz.finance/base",
       "https://base.api.pocket.network",
       "https://base.rpc.blxrbdn.com",
       "https://api-base-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
       "https://base.drpc.org",
-      "https://rpcbase.hairylabs.io/rpc",
       "https://base.rpc.sentio.xyz",
       "https://rpc.swiftnodes.io/rpc/base",
       "https://rpcfree.com/base-rpc",
-      "https://base-rpc.keccak.io",
       "https://rpc-base.blockmachine.io",
       "https://rpc.baseazul.dev",
       "https://rpc.satelink.network/rpc/base",
-      "https://xrpc.cl/base",
       "https://8453.rpc.thirdweb.com"
     ]
   },
@@ -117,6 +109,7 @@ const chains = [
     "key": "bnb",
     "name": "BNB Smart Chain Mainnet",
     "rpcs": [
+      "https://xrpc.cl/bsc",
       "https://rpc.hostdefi.com/api/rpc/bsc",
       "https://lb.routeme.sh/rpc/evm/56",
       "https://rpc.nodeflare.app/bnb/public",
@@ -166,7 +159,6 @@ const chains = [
       "https://rpc.swiftnodes.io/rpc/bsc",
       "https://rpc-bsc.blockmachine.io",
       "https://bsc-rpc-public.chainpulse.cc",
-      "https://xrpc.cl/bsc",
       "https://56.rpc.thirdweb.com"
     ]
   },
@@ -175,6 +167,7 @@ const chains = [
     "key": "arb1",
     "name": "Arbitrum One",
     "rpcs": [
+      "https://xrpc.cl/arbitrum",
       "https://rpc.hostdefi.com/api/rpc/arbitrum",
       "https://lb.routeme.sh/rpc/evm/42161",
       "https://rpc.nodeflare.app/arb/public",
@@ -211,7 +204,6 @@ const chains = [
       "https://rpc-arbitrum.blockmachine.io",
       "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
       "https://rpc.satelink.network/rpc/arbitrum",
-      "https://xrpc.cl/arbitrum",
       "https://42161.rpc.thirdweb.com"
     ]
   },
@@ -261,6 +253,7 @@ const chains = [
     "key": "avax",
     "name": "Avalanche C-Chain",
     "rpcs": [
+      "https://xrpc.cl/avalanche",
       "https://rpc.hostdefi.com/api/rpc/avalanche",
       "https://lb.routeme.sh/rpc/evm/43114",
       "https://rpc.nodeflare.app/avax/public",
@@ -289,7 +282,6 @@ const chains = [
       "https://avax-mainnet.gateway.tatum.io",
       "https://avax-rpc.keccak.io",
       "https://rpc-avalanche.blockmachine.io",
-      "https://xrpc.cl/avalanche",
       "https://43114.rpc.thirdweb.com"
     ]
   },
@@ -298,6 +290,7 @@ const chains = [
     "key": "oeth",
     "name": "OP Mainnet",
     "rpcs": [
+      "https://xrpc.cl/optimism",
       "https://rpc.hostdefi.com/api/rpc/optimism",
       "https://lb.routeme.sh/rpc/evm/10",
       "https://rpc.nodeflare.app/op/public",
@@ -332,7 +325,6 @@ const chains = [
       "https://rpc.swiftnodes.io/rpc/optimism",
       "https://op-rpc.keccak.io",
       "https://rpc-optimism.blockmachine.io",
-      "https://xrpc.cl/optimism",
       "https://10.rpc.thirdweb.com"
     ]
   },
@@ -356,6 +348,7 @@ const chains = [
     "key": "pol",
     "name": "Polygon Mainnet",
     "rpcs": [
+      "https://xrpc.cl/polygon",
       "https://rpc.hostdefi.com/api/rpc/polygon",
       "https://lb.routeme.sh/rpc/evm/137",
       "https://rpc.nodeflare.app/polygon/public",
@@ -393,7 +386,6 @@ const chains = [
       "https://rpc.satelink.network/rpc/polygon",
       "https://polygon-rpc.keccak.io",
       "https://rpc-polygon.blockmachine.io",
-      "https://xrpc.cl/polygon",
       "https://137.rpc.thirdweb.com"
     ]
   },
@@ -496,6 +488,18 @@ const chains = [
     ]
   },
   {
+    "id": 2818,
+    "key": "morph",
+    "name": "Morph",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/2818",
+      "https://rpc.morphl2.io",
+      "https://rpc-quicknode.morphl2.io",
+      "https://morph.drpc.org",
+      "https://2818.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 100,
     "key": "gno",
     "name": "Gnosis",
@@ -526,18 +530,6 @@ const chains = [
     ]
   },
   {
-    "id": 988,
-    "key": "stable",
-    "name": "Stable Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/988",
-      "https://stable-mainnet.rpc.sentio.xyz",
-      "https://stable.drpc.org",
-      "https://rpc.stable.xyz",
-      "https://988.rpc.thirdweb.com"
-    ]
-  },
-  {
     "id": 1672,
     "key": "pharos",
     "name": "Pharos Mainnet",
@@ -548,15 +540,15 @@ const chains = [
     ]
   },
   {
-    "id": 2818,
-    "key": "morph",
-    "name": "Morph",
+    "id": 988,
+    "key": "stable",
+    "name": "Stable Mainnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/2818",
-      "https://rpc.morphl2.io",
-      "https://rpc-quicknode.morphl2.io",
-      "https://morph.drpc.org",
-      "https://2818.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/988",
+      "https://stable-mainnet.rpc.sentio.xyz",
+      "https://stable.drpc.org",
+      "https://rpc.stable.xyz",
+      "https://988.rpc.thirdweb.com"
     ]
   },
   {
@@ -589,6 +581,29 @@ const chains = [
     ]
   },
   {
+    "id": 2649,
+    "key": "ailayer-mainnet",
+    "name": "AILayer Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/2649",
+      "https://mainnet-rpc.ailayer.xyz",
+      "https://2649.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 31612,
+    "key": "mezo",
+    "name": "Mezo",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/31612",
+      "https://mezo.drpc.org",
+      "https://rpc_evm-mezo.imperator.co",
+      "https://mezo-mainnet.boar.network",
+      "https://mainnet.mezo.public.validationcloud.io",
+      "https://rpc-internal.mezo.org"
+    ]
+  },
+  {
     "id": 747474,
     "key": "katana",
     "name": "katana",
@@ -618,54 +633,6 @@ const chains = [
     ]
   },
   {
-    "id": 369,
-    "key": "pls",
-    "name": "PulseChain",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/369",
-      "https://rpc.pulsechain.com",
-      "https://rpc.gigatheminter.com",
-      "https://rpc-pulsechain.g4mm4.io",
-      "https://evex.cloud/pulserpc",
-      "https://rpc.degenprotocol.io",
-      "https://one.valve.city/rpc/vk_demo/evm/369",
-      "https://pulsechain-rpc.publicnode.com",
-      "https://rpc.owlracle.info/pulse/70d38ce1826c4a60bb2a8e05a6c8b20f",
-      "https://rpc.pulsechainrpc.com",
-      "https://rpc.pulsechainstats.com",
-      "https://rpc.hairylabs.io",
-      "https://rpc.swiftnodes.io/rpc/pulsechain",
-      "https://sophia-rpc.mijk.pro",
-      "https://mystica-rpc.mijk.pro",
-      "https://rpc.pulseheartbeat.com",
-      "https://rpc.levko.io",
-      "https://369.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 2649,
-    "key": "ailayer-mainnet",
-    "name": "AILayer Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/2649",
-      "https://mainnet-rpc.ailayer.xyz",
-      "https://2649.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 31612,
-    "key": "mezo",
-    "name": "Mezo",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/31612",
-      "https://mezo.drpc.org",
-      "https://rpc_evm-mezo.imperator.co",
-      "https://mezo-mainnet.boar.network",
-      "https://mainnet.mezo.public.validationcloud.io",
-      "https://rpc-internal.mezo.org"
-    ]
-  },
-  {
     "id": 295,
     "key": "hedera-mainnet",
     "name": "Hedera Mainnet",
@@ -691,6 +658,31 @@ const chains = [
       "https://sei.api.pocket.network",
       "https://rpc.swiftnodes.io/rpc/sei",
       "https://1329.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 369,
+    "key": "pls",
+    "name": "PulseChain",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/369",
+      "https://rpc.pulsechain.com",
+      "https://rpc.gigatheminter.com",
+      "https://rpc-pulsechain.g4mm4.io",
+      "https://evex.cloud/pulserpc",
+      "https://rpc.degenprotocol.io",
+      "https://one.valve.city/rpc/vk_demo/evm/369",
+      "https://pulsechain-rpc.publicnode.com",
+      "https://rpc.owlracle.info/pulse/70d38ce1826c4a60bb2a8e05a6c8b20f",
+      "https://rpc.pulsechainrpc.com",
+      "https://rpc.pulsechainstats.com",
+      "https://rpc.hairylabs.io",
+      "https://rpc.swiftnodes.io/rpc/pulsechain",
+      "https://sophia-rpc.mijk.pro",
+      "https://mystica-rpc.mijk.pro",
+      "https://rpc.pulseheartbeat.com",
+      "https://rpc.levko.io",
+      "https://369.rpc.thirdweb.com"
     ]
   },
   {
@@ -747,6 +739,25 @@ const chains = [
     ]
   },
   {
+    "id": 314,
+    "key": "filecoin",
+    "name": "Filecoin - Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/314",
+      "https://api.node.glif.io",
+      "https://node.filutils.com/rpc/v1",
+      "https://rpc.ankr.com/filecoin",
+      "https://filecoin.chainup.net/rpc/v1",
+      "https://infura.sftproject.io/filecoin/rpc/v1",
+      "https://api.chain.love/rpc/v1",
+      "https://filecoin.drpc.org",
+      "https://filecoin.lava.build",
+      "https://filecoin-mainnet.chainstacklabs.com/rpc/v1",
+      "https://filfox.info/rpc/v1",
+      "https://314.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 60808,
     "key": "bob",
     "name": "BOB",
@@ -774,45 +785,6 @@ const chains = [
     ]
   },
   {
-    "id": 314,
-    "key": "filecoin",
-    "name": "Filecoin - Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/314",
-      "https://api.node.glif.io",
-      "https://node.filutils.com/rpc/v1",
-      "https://rpc.ankr.com/filecoin",
-      "https://filecoin.chainup.net/rpc/v1",
-      "https://infura.sftproject.io/filecoin/rpc/v1",
-      "https://api.chain.love/rpc/v1",
-      "https://filecoin.drpc.org",
-      "https://filecoin.lava.build",
-      "https://filecoin-mainnet.chainstacklabs.com/rpc/v1",
-      "https://filfox.info/rpc/v1",
-      "https://314.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 130,
-    "key": "unichain",
-    "name": "Unichain",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/130",
-      "https://rpc.nodeflare.app/unichain/public",
-      "https://mainnet.unichain.org",
-      "https://unichain.api.onfinality.io/public",
-      "https://unichain-rpc.publicnode.com",
-      "https://unichain.drpc.org",
-      "https://unichain.therpc.io",
-      "https://unichain-mainnet.gateway.tatum.io",
-      "https://rpc.poolz.finance/unichain",
-      "https://api-unichain-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
-      "https://unichain-mainnet.rpc.sentio.xyz",
-      "https://rpc.swiftnodes.io/rpc/unichain",
-      "https://130.rpc.thirdweb.com"
-    ]
-  },
-  {
     "id": 146,
     "key": "sonic",
     "name": "Sonic Mainnet",
@@ -835,52 +807,23 @@ const chains = [
     ]
   },
   {
-    "id": 81457,
-    "key": "blastmainnet",
-    "name": "Blast",
+    "id": 130,
+    "key": "unichain",
+    "name": "Unichain",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/81457",
-      "https://rpc.blast.io",
-      "https://blast.din.dev/rpc",
-      "https://blastl2-mainnet.public.blastapi.io",
-      "https://li-fi-blast.intustechno.workers.dev/rpc",
-      "https://rpc.ankr.com/blast",
-      "https://blast.gasswap.org",
-      "https://blast-rpc.publicnode.com",
-      "https://blast.drpc.org",
-      "https://blast.gateway.tenderly.co",
-      "https://endpoints.omniatech.io/v1/blast/mainnet/public",
-      "https://rpc.owlracle.info/blast/70d38ce1826c4a60bb2a8e05a6c8b20f",
-      "https://blast-public.nodies.app",
-      "https://blast.therpc.io",
-      "https://blast.api.pocket.network",
-      "https://api-blast-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
-      "https://blast-mainnet.rpc.sentio.xyz",
-      "https://rpc.swiftnodes.io/rpc/blast",
-      "https://blast.blockpi.network/v1/rpc/public",
-      "https://81457.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 2222,
-    "key": "kava",
-    "name": "Kava",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/2222",
-      "https://evm.kava.io",
-      "https://kava.api.onfinality.io/public",
-      "https://kava-evm-rpc.publicnode.com",
-      "https://kava-public.nodies.app",
-      "https://evm.kava.chainstacklabs.com",
-      "https://rpc.ankr.com/kava_evm",
-      "https://evm.kava-rpc.com",
-      "https://kava.drpc.org",
-      "https://node.histori.xyz/kava-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
-      "https://kava.therpc.io",
-      "https://kava.api.pocket.network",
-      "https://rpc.swiftnodes.io/rpc/kava",
-      "https://kava-rpc.gateway.pokt.network",
-      "https://kava-evm.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/130",
+      "https://rpc.nodeflare.app/unichain/public",
+      "https://mainnet.unichain.org",
+      "https://unichain.api.onfinality.io/public",
+      "https://unichain-rpc.publicnode.com",
+      "https://unichain.drpc.org",
+      "https://unichain.therpc.io",
+      "https://unichain-mainnet.gateway.tatum.io",
+      "https://rpc.poolz.finance/unichain",
+      "https://api-unichain-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+      "https://unichain-mainnet.rpc.sentio.xyz",
+      "https://rpc.swiftnodes.io/rpc/unichain",
+      "https://130.rpc.thirdweb.com"
     ]
   },
   {
@@ -921,26 +864,52 @@ const chains = [
     ]
   },
   {
-    "id": 747,
-    "key": "flow-mainnet",
-    "name": "Flow EVM Mainnet",
+    "id": 2222,
+    "key": "kava",
+    "name": "Kava",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/747",
-      "https://mainnet.evm.nodes.onflow.org",
-      "https://flow-mainnet.gateway.tatum.io",
-      "https://747.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/2222",
+      "https://evm.kava.io",
+      "https://kava.api.onfinality.io/public",
+      "https://kava-evm-rpc.publicnode.com",
+      "https://kava-public.nodies.app",
+      "https://evm.kava.chainstacklabs.com",
+      "https://rpc.ankr.com/kava_evm",
+      "https://evm.kava-rpc.com",
+      "https://kava.drpc.org",
+      "https://node.histori.xyz/kava-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
+      "https://kava.therpc.io",
+      "https://kava.api.pocket.network",
+      "https://rpc.swiftnodes.io/rpc/kava",
+      "https://kava-rpc.gateway.pokt.network",
+      "https://kava-evm.rpc.thirdweb.com"
     ]
   },
   {
-    "id": 4326,
-    "key": "megaeth",
-    "name": "MegaETH",
+    "id": 81457,
+    "key": "blastmainnet",
+    "name": "Blast",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/4326",
-      "https://rpc-megaeth-mainnet.globalstake.io",
-      "https://megaeth.drpc.org",
-      "https://megaeth.rpc.sentio.xyz",
-      "https://mainnet.megaeth.com/rpc"
+      "https://lb.routeme.sh/rpc/evm/81457",
+      "https://rpc.blast.io",
+      "https://blast.din.dev/rpc",
+      "https://blastl2-mainnet.public.blastapi.io",
+      "https://li-fi-blast.intustechno.workers.dev/rpc",
+      "https://rpc.ankr.com/blast",
+      "https://blast.gasswap.org",
+      "https://blast-rpc.publicnode.com",
+      "https://blast.drpc.org",
+      "https://blast.gateway.tenderly.co",
+      "https://endpoints.omniatech.io/v1/blast/mainnet/public",
+      "https://rpc.owlracle.info/blast/70d38ce1826c4a60bb2a8e05a6c8b20f",
+      "https://blast-public.nodies.app",
+      "https://blast.therpc.io",
+      "https://blast.api.pocket.network",
+      "https://api-blast-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+      "https://blast-mainnet.rpc.sentio.xyz",
+      "https://rpc.swiftnodes.io/rpc/blast",
+      "https://blast.blockpi.network/v1/rpc/public",
+      "https://81457.rpc.thirdweb.com"
     ]
   },
   {
@@ -959,6 +928,17 @@ const chains = [
       "https://api-celo-mainnet-archive.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
       "https://rpc.swiftnodes.io/rpc/celo",
       "https://42220.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 747,
+    "key": "flow-mainnet",
+    "name": "Flow EVM Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/747",
+      "https://mainnet.evm.nodes.onflow.org",
+      "https://flow-mainnet.gateway.tatum.io",
+      "https://747.rpc.thirdweb.com"
     ]
   },
   {
@@ -982,6 +962,26 @@ const chains = [
     ]
   },
   {
+    "id": 4326,
+    "key": "megaeth",
+    "name": "MegaETH",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/4326",
+      "https://rpc-megaeth-mainnet.globalstake.io",
+      "https://megaeth.drpc.org",
+      "https://megaeth.rpc.sentio.xyz",
+      "https://mainnet.megaeth.com/rpc"
+    ]
+  },
+  {
+    "id": 996,
+    "key": "bnc",
+    "name": "Bifrost Polkadot Mainnet",
+    "rpcs": [
+      "https://hk.p.bifrost-rpc.liebi.com"
+    ]
+  },
+  {
     "id": 324,
     "key": "zksync",
     "name": "zkSync Mainnet",
@@ -1002,14 +1002,6 @@ const chains = [
       "https://zksync-era.rpc.sentio.xyz",
       "https://zksync-mainnet.gateway.tatum.io",
       "https://324.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 996,
-    "key": "bnc",
-    "name": "Bifrost Polkadot Mainnet",
-    "rpcs": [
-      "https://hk.p.bifrost-rpc.liebi.com"
     ]
   },
   {
@@ -1061,41 +1053,24 @@ const chains = [
     ]
   },
   {
-    "id": 2741,
-    "key": "abstract",
-    "name": "Abstract",
+    "id": 50,
+    "key": "xdc",
+    "name": "XDC Network",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/2741",
-      "https://api.mainnet.abs.xyz",
-      "https://abstract.drpc.org",
-      "https://abstract.api.onfinality.io/public",
-      "https://abstract-mainnet.gateway.tatum.io",
-      "https://2741.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 1729,
-    "key": "reya",
-    "name": "Reya Network",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/1729",
-      "https://rpc.reya.network",
-      "https://1729.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 1313161554,
-    "key": "aurora",
-    "name": "Aurora Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/1313161554",
-      "https://mainnet.aurora.dev",
-      "https://public.1rpc.io/aurora",
-      "https://aurora.drpc.org",
-      "https://aurora-mainnet.gateway.tatum.io",
-      "https://endpoints.omniatech.io/v1/aurora/mainnet/public",
-      "https://rpc.owlracle.info/aurora/70d38ce1826c4a60bb2a8e05a6c8b20f",
-      "https://1313161554.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/50",
+      "https://rpc.xdcrpc.com",
+      "https://rpc1.xinfin.network",
+      "https://erpc.xinfin.network",
+      "https://erpc.xdcrpc.com",
+      "https://rpc.xdc.org",
+      "https://rpc.xdc.network",
+      "https://earpc.xinfin.network",
+      "https://erpc.xinfin.network",
+      "https://rpc.ankr.com/xdc",
+      "https://xdc-mainnet.gateway.tatum.io",
+      "https://api-xdc-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
+      "https://rpc.xinfin.network",
+      "https://50.rpc.thirdweb.com"
     ]
   },
   {
@@ -1107,6 +1082,19 @@ const chains = [
       "https://evm.confluxrpc.com",
       "https://conflux-espace-public.unifra.io",
       "https://conflux-espace.blockpi.network/v1/rpc/public"
+    ]
+  },
+  {
+    "id": 2741,
+    "key": "abstract",
+    "name": "Abstract",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/2741",
+      "https://api.mainnet.abs.xyz",
+      "https://abstract.drpc.org",
+      "https://abstract.api.onfinality.io/public",
+      "https://abstract-mainnet.gateway.tatum.io",
+      "https://2741.rpc.thirdweb.com"
     ]
   },
   {
@@ -1138,24 +1126,13 @@ const chains = [
     ]
   },
   {
-    "id": 50,
-    "key": "xdc",
-    "name": "XDC Network",
+    "id": 1729,
+    "key": "reya",
+    "name": "Reya Network",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/50",
-      "https://rpc.xdcrpc.com",
-      "https://rpc1.xinfin.network",
-      "https://erpc.xinfin.network",
-      "https://erpc.xdcrpc.com",
-      "https://rpc.xdc.org",
-      "https://rpc.xdc.network",
-      "https://earpc.xinfin.network",
-      "https://erpc.xinfin.network",
-      "https://rpc.ankr.com/xdc",
-      "https://xdc-mainnet.gateway.tatum.io",
-      "https://api-xdc-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
-      "https://rpc.xinfin.network",
-      "https://50.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/1729",
+      "https://rpc.reya.network",
+      "https://1729.rpc.thirdweb.com"
     ]
   },
   {
@@ -1169,6 +1146,29 @@ const chains = [
       "https://zircuit1-mainnet.liquify.com",
       "https://zircuit.rpc.sentio.xyz",
       "https://48900.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 1313161554,
+    "key": "aurora",
+    "name": "Aurora Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/1313161554",
+      "https://mainnet.aurora.dev",
+      "https://public.1rpc.io/aurora",
+      "https://aurora.drpc.org",
+      "https://aurora-mainnet.gateway.tatum.io",
+      "https://endpoints.omniatech.io/v1/aurora/mainnet/public",
+      "https://rpc.owlracle.info/aurora/70d38ce1826c4a60bb2a8e05a6c8b20f",
+      "https://1313161554.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 1110,
+    "key": "grx",
+    "name": "GRX Mainnet",
+    "rpcs": [
+      "https://rpc.grxchain.io"
     ]
   },
   {
@@ -1201,11 +1201,13 @@ const chains = [
     ]
   },
   {
-    "id": 1110,
-    "key": "grx",
-    "name": "GRX Mainnet",
+    "id": 96,
+    "key": "kub",
+    "name": "KUB Mainnet",
     "rpcs": [
-      "https://rpc.grxchain.io"
+      "https://lb.routeme.sh/rpc/evm/96",
+      "https://rpc.bitkubchain.io",
+      "https://96.rpc.thirdweb.com"
     ]
   },
   {
@@ -1220,16 +1222,6 @@ const chains = [
       "https://soneium-mainnet.rpc.sentio.xyz",
       "https://rpc.swiftnodes.io/rpc/soneium",
       "https://1868.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 96,
-    "key": "kub",
-    "name": "KUB Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/96",
-      "https://rpc.bitkubchain.io",
-      "https://96.rpc.thirdweb.com"
     ]
   },
   {
@@ -1248,15 +1240,13 @@ const chains = [
     ]
   },
   {
-    "id": 388,
-    "key": "zkCRO",
-    "name": "Cronos zkEVM Mainnet",
+    "id": 20250217,
+    "key": "xp",
+    "name": "Xphere Mainnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/388",
-      "https://mainnet.zkevm.cronos.org",
-      "https://cronos-zkevm.drpc.org",
-      "https://cronos-zkevm.rpc.sentio.xyz",
-      "https://388.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/20250217",
+      "https://rpc.ankr.com/xphere_mainnet",
+      "https://en-bkk.x-phere.com"
     ]
   },
   {
@@ -1279,6 +1269,18 @@ const chains = [
     ]
   },
   {
+    "id": 388,
+    "key": "zkCRO",
+    "name": "Cronos zkEVM Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/388",
+      "https://mainnet.zkevm.cronos.org",
+      "https://cronos-zkevm.drpc.org",
+      "https://cronos-zkevm.rpc.sentio.xyz",
+      "https://388.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 33139,
     "key": "apechain",
     "name": "ApeChain",
@@ -1287,6 +1289,22 @@ const chains = [
       "https://rpc.apechain.com",
       "https://apechain.drpc.org",
       "https://33139.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 4689,
+    "key": "iotex-mainnet",
+    "name": "IoTeX Network Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/4689",
+      "https://babel-api.mainnet.iotex.io",
+      "https://babel-api.mainnet.iotex.one",
+      "https://babel-api.fastblocks.io",
+      "https://rpc.depinscan.io/iotex",
+      "https://rpc.chainanalytics.org/iotex",
+      "https://iotex-network.rpc.thirdweb.com",
+      "https://iotex.api.onfinality.io/public",
+      "https://api-iotex-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c"
     ]
   },
   {
@@ -1324,22 +1342,6 @@ const chains = [
     ]
   },
   {
-    "id": 4689,
-    "key": "iotex-mainnet",
-    "name": "IoTeX Network Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/4689",
-      "https://babel-api.mainnet.iotex.io",
-      "https://babel-api.mainnet.iotex.one",
-      "https://babel-api.fastblocks.io",
-      "https://rpc.depinscan.io/iotex",
-      "https://rpc.chainanalytics.org/iotex",
-      "https://iotex-network.rpc.thirdweb.com",
-      "https://iotex.api.onfinality.io/public",
-      "https://api-iotex-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c"
-    ]
-  },
-  {
     "id": 592,
     "key": "astr",
     "name": "Astar",
@@ -1356,6 +1358,39 @@ const chains = [
       "https://astar.public.curie.radiumblock.co/http",
       "https://astar.public.curie.radiumblock.co/ws",
       "https://592.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 50104,
+    "key": "sophon",
+    "name": "Sophon",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/50104",
+      "https://rpc.sophon.xyz",
+      "https://rpc-quicknode.sophon.xyz",
+      "https://50104.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 40,
+    "key": "TelosEVM",
+    "name": "Telos EVM Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/40",
+      "https://rpc.telos.net",
+      "https://public.1rpc.io/telos/evm",
+      "https://telos.drpc.org",
+      "https://rpc.ankr.com/telos",
+      "https://rpc.poolz.finance/telos",
+      "https://40.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 10088,
+    "key": "GateLayer",
+    "name": "Gate Layer",
+    "rpcs": [
+      "https://gatelayer-mainnet.gatenode.cc"
     ]
   },
   {
@@ -1387,14 +1422,6 @@ const chains = [
     ]
   },
   {
-    "id": 10088,
-    "key": "GateLayer",
-    "name": "Gate Layer",
-    "rpcs": [
-      "https://gatelayer-mainnet.gatenode.cc"
-    ]
-  },
-  {
     "id": 5031,
     "key": "Somnia",
     "name": "Somnia Mainnet",
@@ -1406,31 +1433,6 @@ const chains = [
     ]
   },
   {
-    "id": 50104,
-    "key": "sophon",
-    "name": "Sophon",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/50104",
-      "https://rpc.sophon.xyz",
-      "https://rpc-quicknode.sophon.xyz",
-      "https://50104.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 40,
-    "key": "TelosEVM",
-    "name": "Telos EVM Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/40",
-      "https://rpc.telos.net",
-      "https://public.1rpc.io/telos/evm",
-      "https://telos.drpc.org",
-      "https://rpc.ankr.com/telos",
-      "https://rpc.poolz.finance/telos",
-      "https://40.rpc.thirdweb.com"
-    ]
-  },
-  {
     "id": 888,
     "key": "wan",
     "name": "Wanchain",
@@ -1439,16 +1441,6 @@ const chains = [
       "https://gwan-ssl.wandevs.org:56891",
       "https://gwan2-ssl.wandevs.org",
       "https://888.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 105105,
-    "key": "xertra",
-    "name": "Xertra Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/105105",
-      "https://rpc.xertra.com",
-      "https://105105.rpc.thirdweb.com"
     ]
   },
   {
@@ -1464,8 +1456,26 @@ const chains = [
       "https://boba-eth.drpc.org",
       "https://boba.api.pocket.network",
       "https://api-boba-mainnet.n.dwellir.com/2ccf18bf-2916-4198-8856-42172854353c",
-      "https://replica.boba.network",
       "https://288.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 105105,
+    "key": "xertra",
+    "name": "Xertra Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/105105",
+      "https://rpc.xertra.com",
+      "https://105105.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 432204,
+    "key": "dexalot",
+    "name": "Dexalot Subnet",
+    "rpcs": [
+      "https://subnets.avax.network/dexalot/mainnet/rpc",
+      "https://432204.rpc.thirdweb.com"
     ]
   },
   {
@@ -1474,6 +1484,20 @@ const chains = [
     "name": "Ethereal Mainnet",
     "rpcs": [
       "https://rpc.ethereal.trade"
+    ]
+  },
+  {
+    "id": 66,
+    "key": "okt",
+    "name": "OKXChain Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/66",
+      "https://exchainrpc.okex.org",
+      "https://oktc-mainnet.public.blastapi.io",
+      "https://public.1rpc.io/oktc",
+      "https://oktc.drpc.org",
+      "https://okc-mainnet.gateway.pokt.network/v1/lb/6275309bea1b320039c893ff",
+      "https://66.rpc.thirdweb.com"
     ]
   },
   {
@@ -1492,43 +1516,12 @@ const chains = [
     ]
   },
   {
-    "id": 38833,
-    "key": "igra",
-    "name": "Igra Mainnet",
-    "rpcs": [
-      "https://rpc.igralabs.com:8545"
-    ]
-  },
-  {
-    "id": 432204,
-    "key": "dexalot",
-    "name": "Dexalot Subnet",
-    "rpcs": [
-      "https://subnets.avax.network/dexalot/mainnet/rpc",
-      "https://432204.rpc.thirdweb.com"
-    ]
-  },
-  {
     "id": 36900,
     "key": "adi",
     "name": "ADI Chain",
     "rpcs": [
       "https://adi.drpc.org",
       "https://rpc.adifoundation.ai"
-    ]
-  },
-  {
-    "id": 66,
-    "key": "okt",
-    "name": "OKXChain Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/66",
-      "https://exchainrpc.okex.org",
-      "https://oktc-mainnet.public.blastapi.io",
-      "https://public.1rpc.io/oktc",
-      "https://oktc.drpc.org",
-      "https://okc-mainnet.gateway.pokt.network/v1/lb/6275309bea1b320039c893ff",
-      "https://66.rpc.thirdweb.com"
     ]
   },
   {
@@ -1546,6 +1539,17 @@ const chains = [
       "https://rpc.owlracle.info/fuse/70d38ce1826c4a60bb2a8e05a6c8b20f",
       "https://fuse.api.pocket.network",
       "https://122.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 4337,
+    "key": "beam",
+    "name": "Beam",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/4337",
+      "https://build.onbeam.com/rpc",
+      "https://subnets.avax.network/beam/mainnet/rpc",
+      "https://4337.rpc.thirdweb.com"
     ]
   },
   {
@@ -1593,26 +1597,11 @@ const chains = [
     ]
   },
   {
-    "id": 4337,
-    "key": "beam",
-    "name": "Beam",
+    "id": 38833,
+    "key": "igra",
+    "name": "Igra Mainnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/4337",
-      "https://build.onbeam.com/rpc",
-      "https://subnets.avax.network/beam/mainnet/rpc",
-      "https://4337.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 3338,
-    "key": "PEAQ",
-    "name": "peaq",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/3338",
-      "https://quicknode1.peaq.xyz",
-      "https://quicknode2.peaq.xyz",
-      "https://quicknode3.peaq.xyz",
-      "https://3338.rpc.thirdweb.com"
+      "https://rpc.igralabs.com:8545"
     ]
   },
   {
@@ -1640,6 +1629,30 @@ const chains = [
     ]
   },
   {
+    "id": 3338,
+    "key": "PEAQ",
+    "name": "peaq",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/3338",
+      "https://quicknode1.peaq.xyz",
+      "https://quicknode2.peaq.xyz",
+      "https://quicknode3.peaq.xyz",
+      "https://3338.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 42,
+    "key": "lukso",
+    "name": "LUKSO Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/42",
+      "https://rpc.mainnet.lukso.network",
+      "https://rpc.lukso.sigmacore.io",
+      "https://42.rpc.thirdweb.com",
+      "https://public-lukso.nownodes.io"
+    ]
+  },
+  {
     "id": 2410,
     "key": "K2-mainnet",
     "name": "K2 Mainnet",
@@ -1647,17 +1660,6 @@ const chains = [
       "https://lb.routeme.sh/rpc/evm/2410",
       "https://rpc.karak.network",
       "https://2410.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 2345,
-    "key": "goat",
-    "name": "GOAT Network",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/2345",
-      "https://rpc.goat.network",
-      "https://goat-mainnet-alpha.drpc.org",
-      "https://rpc.ankr.com/goat_mainnet"
     ]
   },
   {
@@ -1671,19 +1673,6 @@ const chains = [
       "https://rpc.bitlayer-rpc.com",
       "https://rpc-bitlayer.rockx.com",
       "https://200901.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 8822,
-    "key": "iotaevm",
-    "name": "IOTA EVM",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/8822",
-      "https://json-rpc.evm.iotaledger.net",
-      "https://iota-mainnet-evm.public.blastapi.io",
-      "https://rpc.ankr.com/iota_evm",
-      "https://iota-mainnet.gateway.tatum.io",
-      "https://8822.rpc.thirdweb.com"
     ]
   },
   {
@@ -1720,18 +1709,6 @@ const chains = [
     ]
   },
   {
-    "id": 42,
-    "key": "lukso",
-    "name": "LUKSO Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/42",
-      "https://rpc.mainnet.lukso.network",
-      "https://rpc.lukso.sigmacore.io",
-      "https://42.rpc.thirdweb.com",
-      "https://public-lukso.nownodes.io"
-    ]
-  },
-  {
     "id": 7000,
     "key": "zetachain-mainnet",
     "name": "ZetaChain Mainnet",
@@ -1746,13 +1723,16 @@ const chains = [
     ]
   },
   {
-    "id": 148,
-    "key": "shimmerevm",
-    "name": "ShimmerEVM",
+    "id": 8822,
+    "key": "iotaevm",
+    "name": "IOTA EVM",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/148",
-      "https://json-rpc.evm.shimmer.network",
-      "https://148.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/8822",
+      "https://json-rpc.evm.iotaledger.net",
+      "https://iota-mainnet-evm.public.blastapi.io",
+      "https://rpc.ankr.com/iota_evm",
+      "https://iota-mainnet.gateway.tatum.io",
+      "https://8822.rpc.thirdweb.com"
     ]
   },
   {
@@ -1766,19 +1746,12 @@ const chains = [
     ]
   },
   {
-    "id": 10000,
-    "key": "smartbch",
-    "name": "Smart Bitcoin Cash",
+    "id": 16661,
+    "key": "0g",
+    "name": "0G Mainnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/10000",
-      "https://smartbch.fountainhead.cash/mainnet",
-      "https://global.uat.cash",
-      "https://rpc.uatvo.com",
-      "https://bch-mainnet.gateway.tatum.io",
-      "https://smartbch.greyh.at",
-      "https://rpc-mainnet.smartbch.org",
-      "https://smartbch.devops.cash/mainnet",
-      "https://10000.rpc.thirdweb.com"
+      "https://evmrpc.0g.ai",
+      "https://16661.rpc.thirdweb.com"
     ]
   },
   {
@@ -1793,14 +1766,22 @@ const chains = [
     ]
   },
   {
-    "id": 52014,
-    "key": "etn-mainnet",
-    "name": "Electroneum Mainnet",
+    "id": 42170,
+    "key": "arb-nova",
+    "name": "Arbitrum Nova",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/52014",
-      "https://rpc.ankr.com/electroneum",
-      "https://rpc.electroneum.com",
-      "https://52014.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/42170",
+      "https://rpc.nodeflare.app/nova/public",
+      "https://nova.arbitrum.io/rpc",
+      "https://arbitrum-nova.public.blastapi.io",
+      "https://arbitrum-nova-rpc.publicnode.com",
+      "https://arbitrum-nova.drpc.org",
+      "https://arb-nova-mainnet.gateway.tatum.io",
+      "https://arbitrum-nova.gateway.tenderly.co",
+      "https://arbnova-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
+      "https://${QUICKNODE_IDENTIFIER}.nova-mainnet.quiknode.pro/${QUICKNODE_API_KEY}",
+      "https://docs-demo.nova-mainnet.quiknode.pro",
+      "https://42170.rpc.thirdweb.com"
     ]
   },
   {
@@ -1826,30 +1807,6 @@ const chains = [
     ]
   },
   {
-    "id": 16661,
-    "key": "0g",
-    "name": "0G Mainnet",
-    "rpcs": [
-      "https://evmrpc.0g.ai",
-      "https://16661.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 11235,
-    "key": "ISLM",
-    "name": "Haqq Network",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/11235",
-      "https://rpc.eth.haqq.network",
-      "https://haqq-evm.publicnode.com",
-      "https://evm.haqq.sh",
-      "https://haqq-mainnet.gateway.tatum.io",
-      "https://haqq.drpc.org",
-      "https://haqq-evm-rpc.publicnode.com",
-      "https://11235.rpc.thirdweb.com"
-    ]
-  },
-  {
     "id": 248,
     "key": "OAS",
     "name": "Oasys Mainnet",
@@ -1858,25 +1815,6 @@ const chains = [
       "https://rpc.mainnet.oasys.games",
       "https://oasys.api.pocket.network",
       "https://248.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 42170,
-    "key": "arb-nova",
-    "name": "Arbitrum Nova",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/42170",
-      "https://rpc.nodeflare.app/nova/public",
-      "https://nova.arbitrum.io/rpc",
-      "https://arbitrum-nova.public.blastapi.io",
-      "https://arbitrum-nova-rpc.publicnode.com",
-      "https://arbitrum-nova.drpc.org",
-      "https://arb-nova-mainnet.gateway.tatum.io",
-      "https://arbitrum-nova.gateway.tenderly.co",
-      "https://arbnova-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
-      "https://${QUICKNODE_IDENTIFIER}.nova-mainnet.quiknode.pro/${QUICKNODE_API_KEY}",
-      "https://docs-demo.nova-mainnet.quiknode.pro",
-      "https://42170.rpc.thirdweb.com"
     ]
   },
   {
@@ -1913,14 +1851,14 @@ const chains = [
     ]
   },
   {
-    "id": 360,
-    "key": "shape",
-    "name": "Shape",
+    "id": 52014,
+    "key": "etn-mainnet",
+    "name": "Electroneum Mainnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/360",
-      "https://mainnet.shape.network",
-      "https://shape-mainnet.g.alchemy.com/public",
-      "https://360.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/52014",
+      "https://rpc.ankr.com/electroneum",
+      "https://rpc.electroneum.com",
+      "https://52014.rpc.thirdweb.com"
     ]
   },
   {
@@ -1943,15 +1881,31 @@ const chains = [
     ]
   },
   {
-    "id": 106,
-    "key": "vlx",
-    "name": "Velas EVM Mainnet",
+    "id": 360,
+    "key": "shape",
+    "name": "Shape",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/106",
-      "https://evmexplorer.velas.com/rpc",
-      "https://velas-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
-      "https://explorer.velas.com/rpc",
-      "https://106.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/360",
+      "https://mainnet.shape.network",
+      "https://shape-mainnet.g.alchemy.com/public",
+      "https://360.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 20,
+    "key": "esc",
+    "name": "Elastos Smart Chain",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/20",
+      "https://api.elastos.io/esc",
+      "https://api.trinity-tech.io/esc",
+      "https://api2.elastos.io/esc",
+      "https://api2.elastos.net/esc",
+      "https://api2.elastos.io/eth",
+      "https://api2.elastos.net/eth",
+      "https://rpc.glidefinance.io",
+      "https://api.elastos.io/eth",
+      "https://20.rpc.thirdweb.com"
     ]
   },
   {
@@ -1966,6 +1920,15 @@ const chains = [
     ]
   },
   {
+    "id": 9,
+    "key": "quai",
+    "name": "Quai Mainnet",
+    "rpcs": [
+      "https://rpc.quai.network/cyprus1",
+      "https://9.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 82,
     "key": "Meter",
     "name": "Meter Mainnet",
@@ -1974,6 +1937,30 @@ const chains = [
       "https://rpc.meter.io",
       "https://rpc-meter.jellypool.xyz",
       "https://82.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 106,
+    "key": "vlx",
+    "name": "Velas EVM Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/106",
+      "https://evmexplorer.velas.com/rpc",
+      "https://velas-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
+      "https://explorer.velas.com/rpc",
+      "https://106.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 199,
+    "key": "BTT",
+    "name": "BitTorrent Chain Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/199",
+      "https://rpc.bittorrentchain.io",
+      "https://rpc.bt.io",
+      "https://bittorrent.drpc.org",
+      "https://199.rpc.thirdweb.com"
     ]
   },
   {
@@ -1995,44 +1982,6 @@ const chains = [
     ]
   },
   {
-    "id": 20,
-    "key": "esc",
-    "name": "Elastos Smart Chain",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/20",
-      "https://api.elastos.io/esc",
-      "https://api.trinity-tech.io/esc",
-      "https://api2.elastos.io/esc",
-      "https://api2.elastos.net/esc",
-      "https://api2.elastos.io/eth",
-      "https://api2.elastos.net/eth",
-      "https://rpc.glidefinance.io",
-      "https://api.elastos.io/eth",
-      "https://20.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 9,
-    "key": "quai",
-    "name": "Quai Mainnet",
-    "rpcs": [
-      "https://rpc.quai.network/cyprus1",
-      "https://9.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 199,
-    "key": "BTT",
-    "name": "BitTorrent Chain Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/199",
-      "https://rpc.bittorrentchain.io",
-      "https://rpc.bt.io",
-      "https://bittorrent.drpc.org",
-      "https://199.rpc.thirdweb.com"
-    ]
-  },
-  {
     "id": 1135,
     "key": "lisk",
     "name": "Lisk",
@@ -2047,45 +1996,14 @@ const chains = [
     ]
   },
   {
-    "id": 20250217,
-    "key": "xp",
-    "name": "Xphere Mainnet",
+    "id": 2345,
+    "key": "goat",
+    "name": "GOAT Network",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/20250217",
-      "https://rpc.ankr.com/xphere_mainnet",
-      "https://en-bkk.x-phere.com"
-    ]
-  },
-  {
-    "id": 61,
-    "key": "etc",
-    "name": "Ethereum Classic",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/61",
-      "https://etc.etcdesktop.com",
-      "https://rpc.etcmc.xyz",
-      "https://etc.rivet.link",
-      "https://0xrpc.io/etc",
-      "https://ethereum-classic-mainnet.gateway.tatum.io",
-      "https://rpc.swiftnodes.io/rpc/etc",
-      "https://besu-at.etc-network.info",
-      "https://geth-at.etc-network.info",
-      "https://etc.mytokenpocket.vip",
-      "https://61.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 52,
-    "key": "cet",
-    "name": "CoinEx Smart Chain Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/52",
-      "https://rpc.coinex.net",
-      "https://rpc1.coinex.net",
-      "https://rpc2.coinex.net",
-      "https://rpc3.coinex.net",
-      "https://rpc4.coinex.net",
-      "https://52.rpc.thirdweb.com"
+      "https://lb.routeme.sh/rpc/evm/2345",
+      "https://rpc.goat.network",
+      "https://goat-mainnet-alpha.drpc.org",
+      "https://rpc.ankr.com/goat_mainnet"
     ]
   },
   {
@@ -2104,16 +2022,6 @@ const chains = [
       "https://datahub-asia01.bchscan.io",
       "https://datahub-asia02.bchscan.io",
       "https://mainapi.bchscan.io"
-    ]
-  },
-  {
-    "id": 1130,
-    "key": "DFI",
-    "name": "DeFiChain EVM Network Mainnet",
-    "rpcs": [
-      "https://dmc.mydefichain.com/mainnet",
-      "https://dmc01.mydefichain.com/mainnet",
-      "https://1130.rpc.thirdweb.com"
     ]
   },
   {
@@ -2136,6 +2044,34 @@ const chains = [
       "https://hecoapi.terminet.io/rpc",
       "https://heco.drpc.org",
       "https://128.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 61,
+    "key": "etc",
+    "name": "Ethereum Classic",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/61",
+      "https://etc.etcdesktop.com",
+      "https://rpc.etcmc.xyz",
+      "https://etc.rivet.link",
+      "https://0xrpc.io/etc",
+      "https://ethereum-classic-mainnet.gateway.tatum.io",
+      "https://rpc.swiftnodes.io/rpc/etc",
+      "https://besu-at.etc-network.info",
+      "https://geth-at.etc-network.info",
+      "https://etc.mytokenpocket.vip",
+      "https://61.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 246,
+    "key": "ewt",
+    "name": "Energy Web Chain",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/246",
+      "https://rpc.energyweb.org",
+      "https://246.rpc.thirdweb.com"
     ]
   },
   {
@@ -2199,16 +2135,6 @@ const chains = [
     ]
   },
   {
-    "id": 246,
-    "key": "ewt",
-    "name": "Energy Web Chain",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/246",
-      "https://rpc.energyweb.org",
-      "https://246.rpc.thirdweb.com"
-    ]
-  },
-  {
     "id": 1231,
     "key": "UtronMainnet",
     "name": "Ultron Mainnet",
@@ -2226,26 +2152,6 @@ const chains = [
       "https://rpc.ankr.com/redbelly_mainnet",
       "https://api.uniblock.dev/uni/v1/json-rpc?chainId=151",
       "https://151.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 1100,
-    "key": "dymension",
-    "name": "Dymension",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/1100",
-      "https://jsonrpc.dymension.nodestake.org",
-      "https://rollapp.jrpc.cumulo.com.es",
-      "https://dymension.liquify.com/json-rpc",
-      "https://dymension-evm.kynraze.com",
-      "https://dymension.drpc.org",
-      "https://rpc.mainnet.dymension.aviaone.com",
-      "https://evm.rpc.mainnet.dymension.aviaone.com",
-      "https://dymension.api.onfinality.io/public",
-      "https://rpc.swiftnodes.io/rpc/dymension",
-      "https://dymension-evm.blockpi.network/v1/rpc/public",
-      "https://dymension-evm-rpc.publicnode.com",
-      "https://1100.rpc.thirdweb.com"
     ]
   },
   {
@@ -2284,6 +2190,57 @@ const chains = [
     ]
   },
   {
+    "id": 1100,
+    "key": "dymension",
+    "name": "Dymension",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/1100",
+      "https://jsonrpc.dymension.nodestake.org",
+      "https://rollapp.jrpc.cumulo.com.es",
+      "https://dymension.liquify.com/json-rpc",
+      "https://dymension-evm.kynraze.com",
+      "https://dymension.drpc.org",
+      "https://rpc.mainnet.dymension.aviaone.com",
+      "https://evm.rpc.mainnet.dymension.aviaone.com",
+      "https://dymension.api.onfinality.io/public",
+      "https://rpc.swiftnodes.io/rpc/dymension",
+      "https://dymension-evm.blockpi.network/v1/rpc/public",
+      "https://dymension-evm-rpc.publicnode.com",
+      "https://1100.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 10000,
+    "key": "smartbch",
+    "name": "Smart Bitcoin Cash",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/10000",
+      "https://smartbch.fountainhead.cash/mainnet",
+      "https://global.uat.cash",
+      "https://rpc.uatvo.com",
+      "https://bch-mainnet.gateway.tatum.io",
+      "https://smartbch.greyh.at",
+      "https://rpc-mainnet.smartbch.org",
+      "https://smartbch.devops.cash/mainnet",
+      "https://10000.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 11235,
+    "key": "ISLM",
+    "name": "Haqq Network",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/11235",
+      "https://rpc.eth.haqq.network",
+      "https://haqq-evm.publicnode.com",
+      "https://evm.haqq.sh",
+      "https://haqq-mainnet.gateway.tatum.io",
+      "https://haqq.drpc.org",
+      "https://haqq-evm-rpc.publicnode.com",
+      "https://11235.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 648,
     "key": "ace",
     "name": "Endurance Smart Chain Mainnet",
@@ -2304,15 +2261,13 @@ const chains = [
     ]
   },
   {
-    "id": 245022934,
-    "key": "neonevm-mainnet",
-    "name": "Neon EVM Mainnet",
+    "id": 1130,
+    "key": "DFI",
+    "name": "DeFiChain EVM Network Mainnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/245022934",
-      "https://neon-proxy-mainnet.solana.p2p.org",
-      "https://neon-mainnet.everstake.one",
-      "https://neon-evm.drpc.org",
-      "https://245022934.rpc.thirdweb.com"
+      "https://dmc.mydefichain.com/mainnet",
+      "https://dmc01.mydefichain.com/mainnet",
+      "https://1130.rpc.thirdweb.com"
     ]
   },
   {
@@ -2386,6 +2341,18 @@ const chains = [
     ]
   },
   {
+    "id": 245022934,
+    "key": "neonevm-mainnet",
+    "name": "Neon EVM Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/245022934",
+      "https://neon-proxy-mainnet.solana.p2p.org",
+      "https://neon-mainnet.everstake.one",
+      "https://neon-evm.drpc.org",
+      "https://245022934.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 35441,
     "key": "q",
     "name": "Q Mainnet",
@@ -2416,6 +2383,16 @@ const chains = [
     ]
   },
   {
+    "id": 2355,
+    "key": "silicon-zk",
+    "name": "Silicon zkEVM",
+    "rpcs": [
+      "https://rpc.silicon.network",
+      "https://silicon-mainnet.nodeinfra.com",
+      "https://2355.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 60,
     "key": "go",
     "name": "GoChain",
@@ -2426,13 +2403,11 @@ const chains = [
     ]
   },
   {
-    "id": 2355,
-    "key": "silicon-zk",
-    "name": "Silicon zkEVM",
+    "id": 72957,
+    "key": "RLS",
+    "name": "Rayls Mainnet",
     "rpcs": [
-      "https://rpc.silicon.network",
-      "https://silicon-mainnet.nodeinfra.com",
-      "https://2355.rpc.thirdweb.com"
+      "https://mainnet-rpc.rayls.com"
     ]
   },
   {
@@ -2444,14 +2419,6 @@ const chains = [
       "https://superseed.drpc.org",
       "https://mainnet.superseed.xyz",
       "https://5330.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 714,
-    "key": "eden",
-    "name": "Eden",
-    "rpcs": [
-      "https://rpc.eden.gateway.fm"
     ]
   },
   {
@@ -2477,12 +2444,21 @@ const chains = [
     ]
   },
   {
+    "id": 714,
+    "key": "eden",
+    "name": "Eden",
+    "rpcs": [
+      "https://rpc.eden.gateway.fm"
+    ]
+  },
+  {
     "id": 420420419,
     "key": "dot",
     "name": "Polkadot",
     "rpcs": [
       "https://services.polkadothub-rpc.com/mainnet",
-      "https://eth-rpc.polkadot.io"
+      "https://eth-rpc.polkadot.io",
+      "https://doteth.saxemberg.com"
     ]
   },
   {
@@ -2504,7 +2480,6 @@ const chains = [
       "https://lb.routeme.sh/rpc/evm/46",
       "https://rpc.darwinia.network",
       "https://darwinia-rpc.dcdao.box",
-      "https://darwinia-rpc.dwellir.com",
       "https://darwinia.rpc.subquery.network/public",
       "https://46.rpc.thirdweb.com"
     ]
@@ -2564,6 +2539,19 @@ const chains = [
     ]
   },
   {
+    "id": 254,
+    "key": "Swan",
+    "name": "Swan Chain Mainnet",
+    "rpcs": [
+      "https://mainnet-rpc.swanchain.org",
+      "https://mainnet-rpc-01.swanchain.org",
+      "https://mainnet-rpc-02.swanchain.org",
+      "https://mainnet-rpc-03.swanchain.org",
+      "https://mainnet-rpc-04.swanchain.org",
+      "https://254.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 1907,
     "key": "bitci",
     "name": "Bitcichain Mainnet",
@@ -2606,16 +2594,6 @@ const chains = [
     ]
   },
   {
-    "id": 8668,
-    "key": "hela",
-    "name": "Hela Official Runtime Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/8668",
-      "https://mainnet-rpc.helachain.com",
-      "https://8668.rpc.thirdweb.com"
-    ]
-  },
-  {
     "id": 7200,
     "key": "xsat",
     "name": "exSat Mainnet",
@@ -2639,6 +2617,16 @@ const chains = [
       "https://poly-zkevm.api.pocket.network",
       "https://zkevm-rpc.com",
       "https://1101.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 8668,
+    "key": "hela",
+    "name": "Hela Official Runtime Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/8668",
+      "https://mainnet-rpc.helachain.com",
+      "https://8668.rpc.thirdweb.com"
     ]
   },
   {
@@ -2687,28 +2675,6 @@ const chains = [
     ]
   },
   {
-    "id": 53935,
-    "key": "DFK",
-    "name": "DFK Chain",
-    "rpcs": [
-      "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc",
-      "https://avax-dfk.api.pocket.network",
-      "https://53935.rpc.thirdweb.com"
-    ]
-  },
-  {
-    "id": 81,
-    "key": "joc",
-    "name": "Japan Open Chain Mainnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/81",
-      "https://rpc-1.japanopenchain.org:8545",
-      "https://rpc-2.japanopenchain.org:8545",
-      "https://rpc-3.japanopenchain.org",
-      "https://81.rpc.thirdweb.com"
-    ]
-  },
-  {
     "id": 841,
     "key": "tara",
     "name": "Taraxa Mainnet",
@@ -2750,6 +2716,20 @@ const chains = [
     "rpcs": [
       "https://rpc-mainnet-cardano-evm.c1.milkomeda.com",
       "https://2001.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 52,
+    "key": "cet",
+    "name": "CoinEx Smart Chain Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/52",
+      "https://rpc.coinex.net",
+      "https://rpc1.coinex.net",
+      "https://rpc2.coinex.net",
+      "https://rpc3.coinex.net",
+      "https://rpc4.coinex.net",
+      "https://52.rpc.thirdweb.com"
     ]
   },
   {
@@ -3120,6 +3100,18 @@ const chains = [
     ]
   },
   {
+    "id": 81,
+    "key": "joc",
+    "name": "Japan Open Chain Mainnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/81",
+      "https://rpc-1.japanopenchain.org:8545",
+      "https://rpc-2.japanopenchain.org:8545",
+      "https://rpc-3.japanopenchain.org",
+      "https://81.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 86,
     "key": "gt",
     "name": "GateChain Mainnet",
@@ -3417,6 +3409,16 @@ const chains = [
     "rpcs": [
       "https://mainnet-rpc.flagscan.xyz",
       "https://147.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 148,
+    "key": "shimmerevm",
+    "name": "ShimmerEVM",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/148",
+      "https://json-rpc.evm.shimmer.network",
+      "https://148.rpc.thirdweb.com"
     ]
   },
   {
@@ -3838,19 +3840,6 @@ const chains = [
     "name": "Glide L2 Protocol XP",
     "rpcs": [
       "https://rpc-api.glideprotocol.xyz/l2-rpc"
-    ]
-  },
-  {
-    "id": 254,
-    "key": "Swan",
-    "name": "Swan Chain Mainnet",
-    "rpcs": [
-      "https://mainnet-rpc.swanchain.org",
-      "https://mainnet-rpc-01.swanchain.org",
-      "https://mainnet-rpc-02.swanchain.org",
-      "https://mainnet-rpc-03.swanchain.org",
-      "https://mainnet-rpc-04.swanchain.org",
-      "https://254.rpc.thirdweb.com"
     ]
   },
   {
@@ -5536,7 +5525,6 @@ const chains = [
       "https://moonbeam-alpha.api.onfinality.io/public",
       "https://moonbase-alpha.drpc.org",
       "https://moonbase-alpha.public.blastapi.io",
-      "https://moonbase-rpc.dwellir.com",
       "https://1287.rpc.thirdweb.com"
     ]
   },
@@ -6398,7 +6386,6 @@ const chains = [
       "https://lb.routeme.sh/rpc/evm/2031",
       "https://fullnode.centrifuge.io",
       "https://centrifuge-parachain.api.onfinality.io/public",
-      "https://centrifuge-rpc.dwellir.com",
       "https://rpc-centrifuge.luckyfriday.io",
       "https://2031.rpc.thirdweb.com"
     ]
@@ -6526,6 +6513,14 @@ const chains = [
     "name": "Altair",
     "rpcs": [
       "https://2088.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 2099,
+    "key": "pikochain",
+    "name": "PikoChain",
+    "rpcs": [
+      "https://pikochain.serveousercontent.com"
     ]
   },
   {
@@ -7985,12 +7980,26 @@ const chains = [
     ]
   },
   {
+    "id": 5667,
+    "key": "kons",
+    "name": "Konstellation",
+    "rpcs": []
+  },
+  {
     "id": 5678,
     "key": "tango",
     "name": "Tanssi Demo",
     "rpcs": [
       "https://services.tanssi-testnet.network/dancelight-2001",
       "https://5678.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 5680,
+    "key": "scdo0",
+    "name": "SCDO Shard0",
+    "rpcs": [
+      "https://scdoscan.io/rpc/0"
     ]
   },
   {
@@ -9146,6 +9155,14 @@ const chains = [
       "https://evmos.api.pocket.network",
       "https://rpc.swiftnodes.io/rpc/evmos",
       "https://9001.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 9002,
+    "key": "kortana",
+    "name": "Kortana",
+    "rpcs": [
+      "https://zeus-rpc.mainnet.kortana.xyz"
     ]
   },
   {
@@ -11158,6 +11175,16 @@ const chains = [
     ]
   },
   {
+    "id": 53935,
+    "key": "DFK",
+    "name": "DFK Chain",
+    "rpcs": [
+      "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc",
+      "https://avax-dfk.api.pocket.network",
+      "https://53935.rpc.thirdweb.com"
+    ]
+  },
+  {
     "id": 54176,
     "key": "overprotocol",
     "name": "OverProtocol Mainnet",
@@ -11332,6 +11359,14 @@ const chains = [
       "https://rpc-mainnet.optopia.ai",
       "https://rpc-mainnet-2.optopia.ai",
       "https://62050.rpc.thirdweb.com"
+    ]
+  },
+  {
+    "id": 62124,
+    "key": "frac",
+    "name": "FractalAI",
+    "rpcs": [
+      "https://api.fractalai.net.co"
     ]
   },
   {
@@ -11879,6 +11914,15 @@ const chains = [
     "name": "Shark Network",
     "rpcs": [
       "https://rpc.rpcshark.com"
+    ]
+  },
+  {
+    "id": 88188,
+    "key": "atmain",
+    "name": "Atoshi Original Mainnet",
+    "rpcs": [
+      "https://rpc.atoshinetwork.xyz",
+      "https://explorer.atoshinetwork.xyz/rpc"
     ]
   },
   {
@@ -12443,14 +12487,6 @@ const chains = [
     ]
   },
   {
-    "id": 177155,
-    "key": "mfenx",
-    "name": "mfenx",
-    "rpcs": [
-      "https://rpc.mfenx.com"
-    ]
-  },
-  {
     "id": 179170,
     "key": "clts",
     "name": "Transparency Solution",
@@ -12565,8 +12601,7 @@ const chains = [
     "name": "Heima",
     "rpcs": [
       "https://lb.routeme.sh/rpc/evm/212013",
-      "https://rpc.heima-parachain.heima.network",
-      "https://litentry-rpc.dwellir.com"
+      "https://rpc.heima-parachain.heima.network"
     ]
   },
   {
@@ -13537,6 +13572,14 @@ const chains = [
     ]
   },
   {
+    "id": 1658000,
+    "key": "bana",
+    "name": "Bana Mainnet",
+    "rpcs": [
+      "https://rpc.banascan.com"
+    ]
+  },
+  {
     "id": 1731313,
     "key": "TDD",
     "name": "Turkey Demo Dev",
@@ -13904,6 +13947,14 @@ const chains = [
     "name": "Crynux on Base",
     "rpcs": [
       "https://json-rpc.base.crynux.io"
+    ]
+  },
+  {
+    "id": 18896215,
+    "key": "crynux-rh",
+    "name": "Crynux on RH",
+    "rpcs": [
+      "https://json-rpc.rh.crynux.io"
     ]
   },
   {
@@ -14974,6 +15025,7 @@ const chains = [
     "rpcs": [
       "https://rpc.kenny-us-pool.com",
       "https://rpc.welshdag.trade",
+      "https://rpc.bdagexplorer.com",
       "https://rpc.bdagscan.com"
     ]
   },
@@ -15003,8 +15055,8 @@ const chains = [
   },
   {
     "id": 1475,
-    "key": "CMX-R",
-    "name": "CRYMAD Chain Mainnet Network",
+    "key": "cmxr",
+    "name": "CRYMAD Chain",
     "rpcs": [
       "https://rpc.cmxofficial.com"
     ]
@@ -15984,6 +16036,14 @@ const chains = [
     ]
   },
   {
+    "id": 362,
+    "key": "dnc",
+    "name": "Dancore",
+    "rpcs": [
+      "https://rpc.dancorescan.com"
+    ]
+  },
+  {
     "id": 36888,
     "key": "abcore",
     "name": "AB Core Mainnet",
@@ -16462,6 +16522,14 @@ const chains = [
     ]
   },
   {
+    "id": 5816,
+    "key": "shib",
+    "name": "Shib Mainnet",
+    "rpcs": [
+      "https://rpc.shib.club"
+    ]
+  },
+  {
     "id": 612055,
     "key": "one",
     "name": "ONE Chain Mainnet",
@@ -16715,25 +16783,17 @@ const chains = [
     ]
   },
   {
-    "id": 72957,
-    "key": "RLS",
-    "name": "Rayls Mainnet",
-    "rpcs": [
-      "https://mainnet-rpc.rayls.com"
-    ]
-  },
-  {
     "id": 73571,
     "key": "seleman",
     "name": "SELEMAN Chain",
     "rpcs": [
-      "https://seleman.monarcaproject.com/rpc",
-      "https://seleman-edge.mineriafjs.workers.dev/rpc"
+      "https://explorer.primevertexlabs.com.mx/rpc",
+      "https://seleman.monarcaproject.com/rpc"
     ]
   },
   {
     "id": 7373,
-    "key": "CMX-U",
+    "key": "cmxr-l2",
     "name": "CRYMAD Chain Mainnet L2 Network",
     "rpcs": [
       "https://rpcl2.cmxofficial.com"
@@ -16903,7 +16963,7 @@ const chains = [
     "key": "univex",
     "name": "Univex Network",
     "rpcs": [
-      "https://rpc.univexnetwork.com"
+      "https://rpc.univexnetwork.org"
     ]
   },
   {
@@ -17233,6 +17293,7 @@ const chains = [
     "key": "sep",
     "name": "Ethereum Sepolia",
     "rpcs": [
+      "https://xrpc.cl/sepolia",
       "https://lb.routeme.sh/rpc/evm/11155111",
       "https://eth-sepolia.g.alchemy.com/v2/demo",
       "https://eth-sepolia.public.blastapi.io",
@@ -17260,8 +17321,7 @@ const chains = [
       "https://rpc2.sepolia.org",
       "https://rpc.sepolia.ethpandaops.io",
       "https://sepolia.drpc.org",
-      "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-",
-      "https://xrpc.cl/sepolia"
+      "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-"
     ]
   },
   {
@@ -17505,23 +17565,6 @@ const chains = [
     ]
   },
   {
-    "id": 2201,
-    "key": "stable-testnet",
-    "name": "Stable Testnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/2201",
-      "https://rpc.testnet.stable.xyz"
-    ]
-  },
-  {
-    "id": 688688,
-    "key": "pharos-testnet",
-    "name": "Pharos Testnet",
-    "rpcs": [
-      "https://testnet.dplabs-internal.com"
-    ]
-  },
-  {
     "id": 2710,
     "key": "tmorph",
     "name": "Morph Testnet",
@@ -17539,35 +17582,29 @@ const chains = [
     ]
   },
   {
+    "id": 688688,
+    "key": "pharos-testnet",
+    "name": "Pharos Testnet",
+    "rpcs": [
+      "https://testnet.dplabs-internal.com"
+    ]
+  },
+  {
+    "id": 2201,
+    "key": "stable-testnet",
+    "name": "Stable Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/2201",
+      "https://rpc.testnet.stable.xyz"
+    ]
+  },
+  {
     "id": 42431,
     "key": "tempo-moderato",
     "name": "Tempo Testnet",
     "rpcs": [
       "https://lb.routeme.sh/rpc/evm/42431",
       "https://rpc.testnet.tempo.xyz"
-    ]
-  },
-  {
-    "id": 31,
-    "key": "trsk",
-    "name": "Rootstock Testnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/31",
-      "https://public-node.testnet.rsk.co",
-      "https://mycrypto.testnet.rsk.co",
-      "https://rootstock-testnet.drpc.org"
-    ]
-  },
-  {
-    "id": 943,
-    "key": "t4pls",
-    "name": "PulseChain Testnet v4",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/943",
-      "https://rpc.v4.testnet.pulsechain.com",
-      "https://one.valve.city/rpc/vk_demo/evm/943",
-      "https://pulsechain-testnet-rpc.publicnode.com",
-      "https://rpc-testnet-pulsechain.g4mm4.io"
     ]
   },
   {
@@ -17588,6 +17625,17 @@ const chains = [
     ]
   },
   {
+    "id": 31,
+    "key": "trsk",
+    "name": "Rootstock Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/31",
+      "https://public-node.testnet.rsk.co",
+      "https://mycrypto.testnet.rsk.co",
+      "https://rootstock-testnet.drpc.org"
+    ]
+  },
+  {
     "id": 296,
     "key": "hedera-testnet",
     "name": "Hedera Testnet",
@@ -17595,6 +17643,18 @@ const chains = [
       "https://lb.routeme.sh/rpc/evm/296",
       "https://296.rpc.thirdweb.com",
       "https://testnet.hashio.io/api"
+    ]
+  },
+  {
+    "id": 943,
+    "key": "t4pls",
+    "name": "PulseChain Testnet v4",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/943",
+      "https://rpc.v4.testnet.pulsechain.com",
+      "https://one.valve.city/rpc/vk_demo/evm/943",
+      "https://pulsechain-testnet-rpc.publicnode.com",
+      "https://rpc-testnet-pulsechain.g4mm4.io"
     ]
   },
   {
@@ -17648,6 +17708,16 @@ const chains = [
     ]
   },
   {
+    "id": 14601,
+    "key": "sonic-testnet",
+    "name": "Sonic Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/14601",
+      "https://sonic-testnet-v2.drpc.org",
+      "https://rpc.testnet.soniclabs.com"
+    ]
+  },
+  {
     "id": 1301,
     "key": "unichain-sep",
     "name": "Unichain Sepolia Testnet",
@@ -17662,13 +17732,23 @@ const chains = [
     ]
   },
   {
-    "id": 14601,
-    "key": "sonic-testnet",
-    "name": "Sonic Testnet",
+    "id": 2523,
+    "key": "fraxtal-hoodi-testnet",
+    "name": "Fraxtal Hoodi Testnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/14601",
-      "https://sonic-testnet-v2.drpc.org",
-      "https://rpc.testnet.soniclabs.com"
+      "https://fraxtal-testnet.drpc.org",
+      "https://rpc.testnet.frax.com"
+    ]
+  },
+  {
+    "id": 2221,
+    "key": "tkava",
+    "name": "Kava Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/2221",
+      "https://evm.testnet.kava.io",
+      "https://kava-evm-testnet.rpc.thirdweb.com",
+      "https://kava-testnet.drpc.org"
     ]
   },
   {
@@ -17693,23 +17773,14 @@ const chains = [
     ]
   },
   {
-    "id": 2221,
-    "key": "tkava",
-    "name": "Kava Testnet",
+    "id": 11142220,
+    "key": "celo-sep",
+    "name": "Celo Sepolia Testnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/2221",
-      "https://evm.testnet.kava.io",
-      "https://kava-evm-testnet.rpc.thirdweb.com",
-      "https://kava-testnet.drpc.org"
-    ]
-  },
-  {
-    "id": 2523,
-    "key": "fraxtal-hoodi-testnet",
-    "name": "Fraxtal Hoodi Testnet",
-    "rpcs": [
-      "https://fraxtal-testnet.drpc.org",
-      "https://rpc.testnet.frax.com"
+      "https://forno.celo-sepolia.celo-testnet.org",
+      "https://rpc.ankr.com/celo_sepolia",
+      "https://celo-sepolia.gateway.tatum.io",
+      "https://celo-sepolia.drpc.org"
     ]
   },
   {
@@ -17723,31 +17794,20 @@ const chains = [
     ]
   },
   {
+    "id": 20994,
+    "key": "fluent-testnet",
+    "name": "Fluent Testnet",
+    "rpcs": [
+      "https://rpc.testnet.fluent.xyz"
+    ]
+  },
+  {
     "id": 6343,
     "key": "megaeth-testnet",
     "name": "MegaETH Testnet",
     "rpcs": [
       "https://lb.routeme.sh/rpc/evm/6343",
       "https://carrot.megaeth.com/rpc"
-    ]
-  },
-  {
-    "id": 11142220,
-    "key": "celo-sep",
-    "name": "Celo Sepolia Testnet",
-    "rpcs": [
-      "https://forno.celo-sepolia.celo-testnet.org",
-      "https://rpc.ankr.com/celo_sepolia",
-      "https://celo-sepolia.gateway.tatum.io",
-      "https://celo-sepolia.drpc.org"
-    ]
-  },
-  {
-    "id": 20994,
-    "key": "fluent-testnet",
-    "name": "Fluent Testnet",
-    "rpcs": [
-      "https://rpc.testnet.fluent.xyz"
     ]
   },
   {
@@ -17803,17 +17863,6 @@ const chains = [
     ]
   },
   {
-    "id": 1313161555,
-    "key": "aurora-testnet",
-    "name": "Aurora Testnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/1313161555",
-      "https://testnet.aurora.dev",
-      "https://aurora-testnet.drpc.org",
-      "https://endpoints.omniatech.io/v1/aurora/testnet/public"
-    ]
-  },
-  {
     "id": 534351,
     "key": "scr-sepolia",
     "name": "Scroll Sepolia Testnet",
@@ -17834,14 +17883,14 @@ const chains = [
     ]
   },
   {
-    "id": 1946,
-    "key": "soneium-minato",
-    "name": "Soneium Testnet Minato",
+    "id": 1313161555,
+    "key": "aurora-testnet",
+    "name": "Aurora Testnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/1946",
-      "https://rpc.minato.soneium.org",
-      "https://soneium-minato.drpc.org",
-      "https://soneium-minato.rpc.sentio.xyz"
+      "https://lb.routeme.sh/rpc/evm/1313161555",
+      "https://testnet.aurora.dev",
+      "https://aurora-testnet.drpc.org",
+      "https://endpoints.omniatech.io/v1/aurora/testnet/public"
     ]
   },
   {
@@ -17854,6 +17903,17 @@ const chains = [
     ]
   },
   {
+    "id": 1946,
+    "key": "soneium-minato",
+    "name": "Soneium Testnet Minato",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/1946",
+      "https://rpc.minato.soneium.org",
+      "https://soneium-minato.drpc.org",
+      "https://soneium-minato.rpc.sentio.xyz"
+    ]
+  },
+  {
     "id": 1115,
     "key": "tcore",
     "name": "Core Blockchain Testnet",
@@ -17862,13 +17922,13 @@ const chains = [
     ]
   },
   {
-    "id": 240,
-    "key": "zkTCRO",
-    "name": "Cronos zkEVM Testnet",
+    "id": 1998991,
+    "key": "xp-test",
+    "name": "Xphere Testnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/240",
-      "https://cronos-zkevm-testnet.drpc.org",
-      "https://testnet.zkevm.cronos.org"
+      "https://lb.routeme.sh/rpc/evm/1998991",
+      "https://rpc.ankr.com/xphere_testnet",
+      "http://testnet.x-phere.com"
     ]
   },
   {
@@ -17893,13 +17953,13 @@ const chains = [
     ]
   },
   {
-    "id": 919,
-    "key": "modesep",
-    "name": "Mode Testnet",
+    "id": 240,
+    "key": "zkTCRO",
+    "name": "Cronos zkEVM Testnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/919",
-      "https://mode-testnet.drpc.org",
-      "https://sepolia.mode.network"
+      "https://lb.routeme.sh/rpc/evm/240",
+      "https://cronos-zkevm-testnet.drpc.org",
+      "https://testnet.zkevm.cronos.org"
     ]
   },
   {
@@ -17912,14 +17972,13 @@ const chains = [
     ]
   },
   {
-    "id": 50312,
-    "key": "SomniaTestnet",
-    "name": "Somnia Testnet",
+    "id": 919,
+    "key": "modesep",
+    "name": "Mode Testnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/50312",
-      "https://dream-rpc.somnia.network",
-      "https://rpc.ankr.com/somnia_testnet/6e3fd81558cf77b928b06b38e9409b4677b637118114e83364486294d5ff4811",
-      "https://api.infra.testnet.somnia.network"
+      "https://lb.routeme.sh/rpc/evm/919",
+      "https://mode-testnet.drpc.org",
+      "https://sepolia.mode.network"
     ]
   },
   {
@@ -17944,20 +18003,14 @@ const chains = [
     ]
   },
   {
-    "id": 13374202,
-    "key": "ethereal-testnet-0",
-    "name": "Ethereal Testnet",
+    "id": 50312,
+    "key": "SomniaTestnet",
+    "name": "Somnia Testnet",
     "rpcs": [
-      "https://rpc.etherealtest.net",
-      "https://rpc-ethereal-testnet-0.t.conduit.xyz"
-    ]
-  },
-  {
-    "id": 38836,
-    "key": "igra-testnet",
-    "name": "Igra Testnet",
-    "rpcs": [
-      "https://galleon-testnet.igralabs.com:8545"
+      "https://lb.routeme.sh/rpc/evm/50312",
+      "https://dream-rpc.somnia.network",
+      "https://rpc.ankr.com/somnia_testnet/6e3fd81558cf77b928b06b38e9409b4677b637118114e83364486294d5ff4811",
+      "https://api.infra.testnet.somnia.network"
     ]
   },
   {
@@ -17969,11 +18022,30 @@ const chains = [
     ]
   },
   {
+    "id": 13374202,
+    "key": "ethereal-testnet-0",
+    "name": "Ethereal Testnet",
+    "rpcs": [
+      "https://rpc.etherealtest.net",
+      "https://rpc-ethereal-testnet-0.t.conduit.xyz"
+    ]
+  },
+  {
     "id": 12001,
     "key": "fuseZK",
     "name": "Fuse Testnet",
     "rpcs": [
       "https://rpc.flash.fuse.io"
+    ]
+  },
+  {
+    "id": 13337,
+    "key": "beam-testnet",
+    "name": "Beam Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/13337",
+      "https://build.onbeam.com/rpc/testnet",
+      "https://subnets.avax.network/beam/testnet/rpc"
     ]
   },
   {
@@ -18009,13 +18081,11 @@ const chains = [
     ]
   },
   {
-    "id": 13337,
-    "key": "beam-testnet",
-    "name": "Beam Testnet",
+    "id": 38836,
+    "key": "igra-testnet",
+    "name": "Igra Testnet",
     "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/13337",
-      "https://build.onbeam.com/rpc/testnet",
-      "https://subnets.avax.network/beam/testnet/rpc"
+      "https://galleon-testnet.igralabs.com:8545"
     ]
   },
   {
@@ -18036,6 +18106,15 @@ const chains = [
     ]
   },
   {
+    "id": 4201,
+    "key": "lukso-testnet",
+    "name": "LUKSO Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/4201",
+      "https://rpc.testnet.lukso.network"
+    ]
+  },
+  {
     "id": 2512,
     "key": "K2-testnet",
     "name": "K2 Testnet",
@@ -18053,33 +18132,12 @@ const chains = [
     ]
   },
   {
-    "id": 1075,
-    "key": "iotaevm-testnet",
-    "name": "IOTA EVM Testnet",
-    "rpcs": [
-      "https://evm-toolkit-api.evm.testnet.iotaledger.net",
-      "https://iota-testnet-evm.public.blastapi.io",
-      "https://rpc.ankr.com/iota_evm_testnet",
-      "https://iota-testnet.gateway.tatum.io",
-      "https://json-rpc.evm.testnet.iotaledger.net"
-    ]
-  },
-  {
     "id": 23295,
     "key": "sapphire-testnet",
     "name": "Oasis Sapphire Testnet",
     "rpcs": [
       "https://lb.routeme.sh/rpc/evm/23295",
       "https://testnet.sapphire.oasis.io"
-    ]
-  },
-  {
-    "id": 4201,
-    "key": "lukso-testnet",
-    "name": "LUKSO Testnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/4201",
-      "https://rpc.testnet.lukso.network"
     ]
   },
   {
@@ -18096,11 +18154,15 @@ const chains = [
     ]
   },
   {
-    "id": 1073,
-    "key": "shimmerevm-testnet",
-    "name": "ShimmerEVM Testnet",
+    "id": 1075,
+    "key": "iotaevm-testnet",
+    "name": "IOTA EVM Testnet",
     "rpcs": [
-      "https://json-rpc.evm.testnet.shimmer.network"
+      "https://evm-toolkit-api.evm.testnet.iotaledger.net",
+      "https://iota-testnet-evm.public.blastapi.io",
+      "https://rpc.ankr.com/iota_evm_testnet",
+      "https://iota-testnet.gateway.tatum.io",
+      "https://json-rpc.evm.testnet.iotaledger.net"
     ]
   },
   {
@@ -18119,15 +18181,6 @@ const chains = [
       "https://lb.routeme.sh/rpc/evm/945",
       "https://bittensor-testnet-lite-public.nodies.app",
       "https://test.chain.opentensor.ai"
-    ]
-  },
-  {
-    "id": 5201420,
-    "key": "etn-testnet",
-    "name": "Electroneum Testnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/5201420",
-      "https://rpc.ankr.com/electroneum_testnet"
     ]
   },
   {
@@ -18175,12 +18228,30 @@ const chains = [
     ]
   },
   {
+    "id": 5201420,
+    "key": "etn-testnet",
+    "name": "Electroneum Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/5201420",
+      "https://rpc.ankr.com/electroneum_testnet"
+    ]
+  },
+  {
     "id": 11011,
     "key": "shapesep",
     "name": "Shape Sepolia Testnet",
     "rpcs": [
       "https://lb.routeme.sh/rpc/evm/11011",
       "https://sepolia.shape.network"
+    ]
+  },
+  {
+    "id": 21,
+    "key": "esct",
+    "name": "Elastos Smart Chain Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/21",
+      "https://api-testnet.elastos.io/eth"
     ]
   },
   {
@@ -18202,15 +18273,6 @@ const chains = [
     ]
   },
   {
-    "id": 21,
-    "key": "esct",
-    "name": "Elastos Smart Chain Testnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/21",
-      "https://api-testnet.elastos.io/eth"
-    ]
-  },
-  {
     "id": 4202,
     "key": "lisksep",
     "name": "Lisk Sepolia Testnet",
@@ -18221,32 +18283,12 @@ const chains = [
     ]
   },
   {
-    "id": 1998991,
-    "key": "xp-test",
-    "name": "Xphere Testnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/1998991",
-      "https://rpc.ankr.com/xphere_testnet",
-      "http://testnet.x-phere.com"
-    ]
-  },
-  {
     "id": 6060,
     "key": "BCH",
     "name": "BC Hyper Chain Testnet",
     "rpcs": [
       "https://rpc01.bchscan.io",
       "https://rpc.bchscan.io"
-    ]
-  },
-  {
-    "id": 1131,
-    "key": "DFI-T",
-    "name": "DeFiChain EVM Network Testnet",
-    "rpcs": [
-      "https://dmc.mydefichain.com/testnet",
-      "https://dmc01.mydefichain.com/testnet",
-      "https://eth.testnet.ocean.jellyfishsdk.com"
     ]
   },
   {
@@ -18324,6 +18366,16 @@ const chains = [
     ]
   },
   {
+    "id": 1131,
+    "key": "DFI-T",
+    "name": "DeFiChain EVM Network Testnet",
+    "rpcs": [
+      "https://dmc.mydefichain.com/testnet",
+      "https://dmc01.mydefichain.com/testnet",
+      "https://eth.testnet.ocean.jellyfishsdk.com"
+    ]
+  },
+  {
     "id": 18,
     "key": "TST",
     "name": "ThunderCore Testnet",
@@ -18359,14 +18411,6 @@ const chains = [
     ]
   },
   {
-    "id": 31337,
-    "key": "got",
-    "name": "GoChain Testnet",
-    "rpcs": [
-      "https://testnet-rpc.gochain.io"
-    ]
-  },
-  {
     "id": 1722641160,
     "key": "silicon-sepolia-testnet",
     "name": "Silicon zkEVM Sepolia Testnet",
@@ -18376,19 +18420,19 @@ const chains = [
     ]
   },
   {
+    "id": 31337,
+    "key": "got",
+    "name": "GoChain Testnet",
+    "rpcs": [
+      "https://testnet-rpc.gochain.io"
+    ]
+  },
+  {
     "id": 53302,
     "key": "seedsep",
     "name": "Superseed Sepolia Testnet",
     "rpcs": [
       "https://sepolia.superseed.xyz"
-    ]
-  },
-  {
-    "id": 3735928814,
-    "key": "edent",
-    "name": "Eden testnet",
-    "rpcs": [
-      "https://rpc.testnet.eden.gateway.fm"
     ]
   },
   {
@@ -18407,6 +18451,14 @@ const chains = [
     "rpcs": [
       "https://testnet-rpc.vinuchain.org",
       "https://vinufoundation-rpc.com"
+    ]
+  },
+  {
+    "id": 3735928814,
+    "key": "edent",
+    "name": "Eden testnet",
+    "rpcs": [
+      "https://rpc.testnet.eden.gateway.fm"
     ]
   },
   {
@@ -18482,15 +18534,6 @@ const chains = [
     ]
   },
   {
-    "id": 666888,
-    "key": "hela-testnet",
-    "name": "Hela Official Runtime Testnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/666888",
-      "https://testnet-rpc.helachain.com"
-    ]
-  },
-  {
     "id": 839999,
     "key": "txsat",
     "name": "exSat Testnet",
@@ -18506,6 +18549,15 @@ const chains = [
       "https://endpoints.omniatech.io/v1/polygon-zkevm/testnet/public",
       "https://rpc.public.zkevm-test.net",
       "https://polygon-zkevm-testnet.drpc.org"
+    ]
+  },
+  {
+    "id": 666888,
+    "key": "hela-testnet",
+    "name": "Hela Official Runtime Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/666888",
+      "https://testnet-rpc.helachain.com"
     ]
   },
   {
@@ -18532,17 +18584,6 @@ const chains = [
     "rpcs": [
       "https://lb.routeme.sh/rpc/evm/8844",
       "https://rpc-testnet.hydrachain.org"
-    ]
-  },
-  {
-    "id": 10081,
-    "key": "joct",
-    "name": "Japan Open Chain Testnet",
-    "rpcs": [
-      "https://lb.routeme.sh/rpc/evm/10081",
-      "https://rpc-1.testnet.japanopenchain.org:8545",
-      "https://rpc-2.testnet.japanopenchain.org:8545",
-      "https://rpc-3.testnet.japanopenchain.org"
     ]
   },
   {
@@ -19713,6 +19754,14 @@ const chains = [
     ]
   },
   {
+    "id": 1073,
+    "key": "shimmerevm-testnet",
+    "name": "ShimmerEVM Testnet",
+    "rpcs": [
+      "https://json-rpc.evm.testnet.shimmer.network"
+    ]
+  },
+  {
     "id": 1079,
     "key": "mintara-testnet",
     "name": "Mintara Testnet",
@@ -20603,6 +20652,14 @@ const chains = [
     "name": "Nexis Network Testnet",
     "rpcs": [
       "https://evm-testnet.nexis.network"
+    ]
+  },
+  {
+    "id": 2382,
+    "key": "aeva-testnet",
+    "name": "Aeva Testnet",
+    "rpcs": [
+      "https://evm.aevachain.com"
     ]
   },
   {
@@ -22087,6 +22144,17 @@ const chains = [
     ]
   },
   {
+    "id": 10081,
+    "key": "joct",
+    "name": "Japan Open Chain Testnet",
+    "rpcs": [
+      "https://lb.routeme.sh/rpc/evm/10081",
+      "https://rpc-1.testnet.japanopenchain.org:8545",
+      "https://rpc-2.testnet.japanopenchain.org:8545",
+      "https://rpc-3.testnet.japanopenchain.org"
+    ]
+  },
+  {
     "id": 10200,
     "key": "chi",
     "name": "Gnosis Chiado Testnet",
@@ -22601,7 +22669,9 @@ const chains = [
     "id": 19480,
     "key": "qmstest",
     "name": "QMS Testnet",
-    "rpcs": []
+    "rpcs": [
+      "https://rpc.testnet.qms.finance"
+    ]
   },
   {
     "id": 19515,
@@ -23229,6 +23299,18 @@ const chains = [
     ]
   },
   {
+    "id": 56671,
+    "key": "kons-test",
+    "name": "Konstellation Testnet",
+    "rpcs": []
+  },
+  {
+    "id": 56672,
+    "key": "kons-dev",
+    "name": "Konstellation Devnet",
+    "rpcs": []
+  },
+  {
     "id": 56797,
     "key": "doidTestnet",
     "name": "DOID Testnet",
@@ -23394,6 +23476,22 @@ const chains = [
     "name": "XCHAIN Testnet",
     "rpcs": [
       "https://xchain-testnet-rpc.kuma.bid"
+    ]
+  },
+  {
+    "id": 64327,
+    "key": "midas-testnet",
+    "name": "Midas Testnet",
+    "rpcs": [
+      "https://rpc.testnet.onmidas.xyz"
+    ]
+  },
+  {
+    "id": 64460,
+    "key": "migo-test",
+    "name": "MigoChain Testnet",
+    "rpcs": [
+      "https://rpc.testnet.migochain.org"
     ]
   },
   {
@@ -24115,6 +24213,14 @@ const chains = [
     "name": "Tatara Testnet",
     "rpcs": [
       "https://rpc.tatara.katanarpc.com"
+    ]
+  },
+  {
+    "id": 131071,
+    "key": "mrsnt",
+    "name": "Mersennet Testnet",
+    "rpcs": [
+      "https://rpc.mersennet.com"
     ]
   },
   {
@@ -24852,6 +24958,14 @@ const chains = [
     "name": "MANORA L2 Testnet",
     "rpcs": [
       "https://rpc-test.manoracoin.com"
+    ]
+  },
+  {
+    "id": 797290,
+    "key": "syrax-testnet",
+    "name": "Syrax Chain Testnet",
+    "rpcs": [
+      "https://rpc.syrax.global"
     ]
   },
   {
@@ -25710,6 +25824,14 @@ const chains = [
     ]
   },
   {
+    "id": 188962150,
+    "key": "crynux-rh-testnet",
+    "name": "Crynux on RH Testnet",
+    "rpcs": [
+      "https://json-rpc.rh-testnet.crynux.io"
+    ]
+  },
+  {
     "id": 222000222,
     "key": "kanazawa",
     "name": "Kanazawa",
@@ -26217,9 +26339,9 @@ const chains = [
   {
     "id": 114514,
     "key": "mtf",
-    "name": "MetaFlux Devnet",
+    "name": "MetaFlux Testnet",
     "rpcs": [
-      "https://api.devnet.mtf.exchange/evm"
+      "https://api.testnet.mtf.exchange/evm"
     ]
   },
   {
@@ -27095,6 +27217,14 @@ const chains = [
     ]
   },
   {
+    "id": 7357,
+    "key": "vyre-testnet",
+    "name": "VYRE Testnet",
+    "rpcs": [
+      "https://testnet-rpc.vyrechain.com"
+    ]
+  },
+  {
     "id": 73829164,
     "key": "kryvora",
     "name": "Kryvora Testnet",
@@ -27149,6 +27279,22 @@ const chains = [
     "name": "NVNM Testnet EVM",
     "rpcs": [
       "https://evm.testnet.nvnmchain.io"
+    ]
+  },
+  {
+    "id": 787222,
+    "key": "nvnm-tempo-devnet-1",
+    "name": "NVNM Tempo Devnet 1",
+    "rpcs": [
+      "https://rpc.nvnm.canary.mantrachain.dev"
+    ]
+  },
+  {
+    "id": 787223,
+    "key": "nvnm-tempo-testnet-1",
+    "name": "NVNM Tempo Testnet 1",
+    "rpcs": [
+      "https://rpc.nvnm.testnet.nvnmchain.io"
     ]
   },
   {
