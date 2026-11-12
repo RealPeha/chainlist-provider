@@ -1,6 +1,6 @@
 {
   "name": "chainlist-provider",
-  "version": "1.0.198",
+  "version": "1.0.199",
   "description": "",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
